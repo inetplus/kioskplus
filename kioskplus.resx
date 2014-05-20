@@ -1,0 +1,1057 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sipError16" xml:space="preserve">
+    <value>Eingabegerät Mikrofon nicht verfügbar</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\exit.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sip_yes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_yes.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freigabeDurch" xml:space="preserve">
+    <value>Freigabe durchführen....</value>
+  </data>
+  <data name="bittewartenSMS" xml:space="preserve">
+    <value>Ihre SMS wird gesendet. Bitte warten..</value>
+  </data>
+  <data name="checkSperrSeite" xml:space="preserve">
+    <value>Sperrseite prüfen</value>
+  </data>
+  <data name="dmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dmail.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackWeiter" xml:space="preserve">
+    <value>Weiter</value>
+  </data>
+  <data name="sipBitteWarten" xml:space="preserve">
+    <value>Bitte warten! Verbindung wird aufgebaut . . .</value>
+  </data>
+  <data name="menu05" xml:space="preserve">
+    <value>inetplus Agent deaktivieren</value>
+  </data>
+  <data name="kpc19" xml:space="preserve">
+    <value>Nickname ist bereits vergeben</value>
+  </data>
+  <data name="errorAufladenInvalidCharachter" xml:space="preserve">
+    <value>Ungültiges Zeichen</value>
+  </data>
+  <data name="sip_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mpFoundFalse" xml:space="preserve">
+    <value>Der angeschlossene Münzprüfer wird nicht unterstützt. Fehler-Code: 00H3F47</value>
+  </data>
+  <data name="sipError37" xml:space="preserve">
+    <value>nicht unterstütztes Dateiformat</value>
+  </data>
+  <data name="rbenutzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rbenutzer.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="billSuccessFound" xml:space="preserve">
+    <value>Es wurde ein Akzeptor gefunden. Bitte konfigurieren Sie diesen.</value>
+  </data>
+  <data name="getfreelicence" xml:space="preserve">
+    <value>Wir haben für Sie folgende Kiosk-ID generiert.{0} Ihr Passwort für diese Kiosk-ID ist "inetplus".{1}Ihre Kiosk-ID:{2}</value>
+  </data>
+  <data name="sip_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\3.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rexit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rexit.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorAufladenNoMinute" xml:space="preserve">
+    <value>Ihre Restzeit muss mindestens {0} min betragen....</value>
+  </data>
+  <data name="sipErrorInvalidNr" xml:space="preserve">
+    <value>ungültige Rufnummer</value>
+  </data>
+  <data name="errorVorwahl" xml:space="preserve">
+    <value>Bitte korrigieren Sie die Vorwahl!</value>
+  </data>
+  <data name="infoBill" xml:space="preserve">
+    <value>Geldscheinleser</value>
+  </data>
+  <data name="last3Minuten" xml:space="preserve">
+    <value>Es wird knapp</value>
+  </data>
+  <data name="kpc17" xml:space="preserve">
+    <value>SMS Kontingent reicht nicht aus.</value>
+  </data>
+  <data name="lmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\lmail.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sip_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpc15" xml:space="preserve">
+    <value>Ungültige KIOSK-ID oder ungültiges Passwort !</value>
+  </data>
+  <data name="blackGewonnen" xml:space="preserve">
+    <value>Sie haben gewonnen</value>
+  </data>
+  <data name="dsms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dsms.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="readBootProperty" xml:space="preserve">
+    <value>Lese Boot-Einstellungen...</value>
+  </data>
+  <data name="errorKdNr" xml:space="preserve">
+    <value>Ihre Kundennummer ist falsch. Bitte geben Sie Ihre Kundennummer ein.</value>
+  </data>
+  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\5.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dexit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dexit.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skin1" xml:space="preserve">
+    <value>Wahnsinn, kostenloser Email Versand ohne Anmeldung. Versende Emails an deine Freunde</value>
+  </data>
+  <data name="kpc5" xml:space="preserve">
+    <value>Benutzerkonto ist gesperrt</value>
+  </data>
+  <data name="rbbenutzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rbbenutzer.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorInvalidNachricht" xml:space="preserve">
+    <value>Ihre Nachricht enthält ungültige Sonderzeichen (&amp;=')</value>
+  </data>
+  <data name="lastMinutenNoch" xml:space="preserve">
+    <value>Du hast nur noch {0} Minuten . .</value>
+  </data>
+  <data name="sipError20" xml:space="preserve">
+    <value>Aufnahme konnte nicht initialisiert werden</value>
+  </data>
+  <data name="kpc16" xml:space="preserve">
+    <value>Diese KIOSK-ID ist gesperrt !</value>
+  </data>
+  <data name="errorEmailAdress" xml:space="preserve">
+    <value>Bitte geben Sie eine gültige EMail Adresse ein</value>
+  </data>
+  <data name="sipError18" xml:space="preserve">
+    <value>Sprachausgabegerät unterstützt keine Lautstärkeneinstellung</value>
+  </data>
+  <data name="aufladen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\aufladen.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpc11" xml:space="preserve">
+    <value>Coupon bereits benutzt !</value>
+  </data>
+  <data name="sip_del" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_del.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackErrorEinsatz" xml:space="preserve">
+    <value>{0}{1}Bitte Einsatz eingeben</value>
+  </data>
+  <data name="mbenutzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mbenutzer.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpc14" xml:space="preserve">
+    <value>Neue Version nur nach Freischaltung möglich. Bitte an support@inetplus.de wenden.</value>
+  </data>
+  <data name="billErrorFound" xml:space="preserve">
+    <value>Es wurde kein Akzeptor gefunden.Bitte überprüfen Sie Ihre Einstellungen.</value>
+  </data>
+  <data name="readProtectOfMinor" xml:space="preserve">
+    <value>Lese Jugendschutz-Einstellungen...</value>
+  </data>
+  <data name="wbenutzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wbenutzer.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wsms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wsms.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorCheckTelNr" xml:space="preserve">
+    <value>Bitte korrigieren Sie die Telefonnummer!</value>
+  </data>
+  <data name="waufladen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\waufladen.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackEinsatzDelete" xml:space="preserve">
+    <value>Einsatz löschen</value>
+  </data>
+  <data name="nehmen_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\nehmen_over.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorAufladenEingabe" xml:space="preserve">
+    <value>Falsche Eingabe</value>
+  </data>
+  <data name="errorNewPwdEingabe" xml:space="preserve">
+    <value>Bitte geben Sie ein neues Passwort an!</value>
+  </data>
+  <data name="errorSmsDeaktiv" xml:space="preserve">
+    <value>SMS-Versand ist für dieses Terminal deaktiv</value>
+  </data>
+  <data name="doppelt_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\doppelt_normal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpc13" xml:space="preserve">
+    <value>Nicht aufladbare Coupons. Nur Anmeldung möglich!</value>
+  </data>
+  <data name="sipErrorNoDefineWaehrung" xml:space="preserve">
+    <value>keine Preise definiert (Währung)</value>
+  </data>
+  <data name="sipZeitGuthaben" xml:space="preserve">
+    <value>Zeitguthaben zu gering. Bitte Münze einwerfen.</value>
+  </data>
+  <data name="dbenutzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dbenutzer.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sipError17" xml:space="preserve">
+    <value>Sprachausgabegerät nicht verfügbar</value>
+  </data>
+  <data name="errorInValid" xml:space="preserve">
+    <value>Ungültiges Zeichen angegeben ( {0} )</value>
+  </data>
+  <data name="stehen_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\stehen_over.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mmain.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorChooseLand" xml:space="preserve">
+    <value>Bitte wählen Sie ein Land aus!</value>
+  </data>
+  <data name="sipError30" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung (besetzt)</value>
+  </data>
+  <data name="readGUID" xml:space="preserve">
+    <value>GUID-Daten werden eingelesen...</value>
+  </data>
+  <data name="kpc6" xml:space="preserve">
+    <value>Benutzerkonto ist gelöscht</value>
+  </data>
+  <data name="blackMaxEinsatzUeber" xml:space="preserve">
+    <value>{0}{1}Max. Einsatz überschritten</value>
+  </data>
+  <data name="mexit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mexit.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wsperren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wsperren.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu02" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="freigabePruef" xml:space="preserve">
+    <value>Prüfung ...</value>
+  </data>
+  <data name="mpSuccessFound" xml:space="preserve">
+    <value>Es wurde ein Münzprüfer gefunden. Bitte konfigurieren Sie diesen.</value>
+  </data>
+  <data name="nehmen_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\nehmen_normal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sip_no" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_no.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dlgFileExtension" xml:space="preserve">
+    <value>Alle Dateien|*.*</value>
+  </data>
+  <data name="menu04" xml:space="preserve">
+    <value>inetplus Agent austauschen</value>
+  </data>
+  <data name="sipError11" xml:space="preserve">
+    <value>Kommunikationsanschluss ist belegt</value>
+  </data>
+  <data name="menu01" xml:space="preserve">
+    <value>Support Verbindung</value>
+  </data>
+  <data name="sip_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sipStartCalling" xml:space="preserve">
+    <value>Gespräch gestartet !</value>
+  </data>
+  <data name="errorMP" xml:space="preserve">
+    <value>Bitte wählen Sie einen Münzprüfer aus oder setzen Sie 'Com-Port' auf 'AUS'</value>
+  </data>
+  <data name="kpc12" xml:space="preserve">
+    <value> ist ungültig</value>
+  </data>
+  <data name="readKCPrint" xml:space="preserve">
+    <value>Lese Druck-Preise...</value>
+  </data>
+  <data name="wdlgcam1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wdlgcam1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="preisTitle" xml:space="preserve">
+    <value>Stunden-Preise:</value>
+  </data>
+  <data name="weiter_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\weiter_normal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackSplittenError" xml:space="preserve">
+    <value>Splitten nicht möglich,{0} da Ihr Guthaben nicht ausreicht! {1}Bitte werfen Sie eine Münze nach</value>
+  </data>
+  <data name="incompleteInstall" xml:space="preserve">
+    <value>Installation nicht vollständig. Bitte aktualisieren Sie die Installation.</value>
+  </data>
+  <data name="sip_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lbenutzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\lbenutzer.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infoGames" xml:space="preserve">
+    <value>Unterhaltung</value>
+  </data>
+  <data name="infoSMS" xml:space="preserve">
+    <value>SMS-Versand</value>
+  </data>
+  <data name="sipError15" xml:space="preserve">
+    <value>Sprachausgabegerät nicht verfügbar oder wird durch eine andere Anwendung verwendet</value>
+  </data>
+  <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\4.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mtelefon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mtelefon.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackVersichern" xml:space="preserve">
+    <value>Möchten Sie versichern?</value>
+  </data>
+  <data name="kpc7" xml:space="preserve">
+    <value>Ihr Benutzerkonto ist leer. Um Ihr Benutzerkonto aufzuladen werfen Sie eine Münze ein und schreiben die Zeit Ihrem Benutzerkonto gut.</value>
+  </data>
+  <data name="ltelefon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ltelefon.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu07" xml:space="preserve">
+    <value>Foto senden</value>
+  </data>
+  <data name="sipError25" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="deaktivKontoAufladen" xml:space="preserve">
+    <value>Kontoaufladen ist für dieses Terminal deaktiv</value>
+  </data>
+  <data name="errorPwdEingabe" xml:space="preserve">
+    <value>Bitte geben Sie Ihr Passwort ein!</value>
+  </data>
+  <data name="sipError33" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="sipError13" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="infoMPBill" xml:space="preserve">
+    <value>Münzprüfer und Geldscheinleser</value>
+  </data>
+  <data name="menu052" xml:space="preserve">
+    <value>inetplus Agent aktivieren</value>
+  </data>
+  <data name="sip_microphone_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_microphone_on.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpc18" xml:space="preserve">
+    <value>Ihr Zeit-Guthaben reicht nicht aus.</value>
+  </data>
+  <data name="successEmail" xml:space="preserve">
+    <value>Email erfolgreich versendet !</value>
+  </data>
+  <data name="sipError24" xml:space="preserve">
+    <value>SDP-Anfrage konnte nicht erstellt werden</value>
+  </data>
+  <data name="geldscheine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\geldscheine.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="last5Minuten" xml:space="preserve">
+    <value>Danach wird dein Terminal gesperrt. Bitte denk an eine rechtzeitige Verlängerung</value>
+  </data>
+  <data name="sipError23" xml:space="preserve">
+    <value>Codec wird nicht unterstützt</value>
+  </data>
+  <data name="sipError22" xml:space="preserve">
+    <value>Initialisierung fehlgeschlagen</value>
+  </data>
+  <data name="sip_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="allgEingabeError" xml:space="preserve">
+    <value>Alle mit * versehenen Eingabefelder müssen ausgefüllt werden.</value>
+  </data>
+  <data name="sipError29" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="msgPCNeuStart" xml:space="preserve">
+    <value>Der Computer wird jetzt neu gestartet, damit der gesamte Funktionsumfang aktiviert werden kann ! {0}Bitte betätigen Sie 'OK' zum Fortfahren</value>
+  </data>
+  <data name="splitten_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\splitten_normal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="weiter_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\weiter_over.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="msgAppNeuStart" xml:space="preserve">
+    <value>Kioskplus muss neu gestartet werden! Bitte betätigen Sie 'OK' zum Fortfahren</value>
+  </data>
+  <data name="sipKontoGuthaben" xml:space="preserve">
+    <value>Kontoguthaben leer, aufladen über Kuncenter möglich</value>
+  </data>
+  <data name="skin2" xml:space="preserve">
+    <value>Einfach Traumhaft, in drei Schritten ein Benutzerkonto anlegen und mit der Restzeit immer wieder surfen</value>
+  </data>
+  <data name="blackVerloren" xml:space="preserve">
+    <value>Sie haben verloren</value>
+  </data>
+  <data name="infoVoip" xml:space="preserve">
+    <value>Telefonieren</value>
+  </data>
+  <data name="errorEmailService" xml:space="preserve">
+    <value>Email-Service ist zur Zeit deaktiv</value>
+  </data>
+  <data name="splitten_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\splitten_over.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mmail.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpc8" xml:space="preserve">
+    <value>ungültiger Aufstellplatz (Share)!</value>
+  </data>
+  <data name="sipError31" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="sip_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noMoneyInsert" xml:space="preserve">
+    <value>Bitte werfen Sie keine Münze ein. Neustart erfolgt in 5 Sekunden!</value>
+  </data>
+  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\6.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mpErrorFound" xml:space="preserve">
+    <value>Es wurde kein Münzprüfer gefunden.Bitte überprüfen Sie Ihre Einstellungen.</value>
+  </data>
+  <data name="exit_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\exit_over.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infoIkunden" xml:space="preserve">
+    <value>Benutzerkonten</value>
+  </data>
+  <data name="kpc10" xml:space="preserve">
+    <value>Coupon gesperrt !</value>
+  </data>
+  <data name="skin6" xml:space="preserve">
+    <value>Du kannst von diesem Terminal aus günstige Gespräche ins Festnetz, Handy und ins Ausland durchführen</value>
+  </data>
+  <data name="blackEinsatz" xml:space="preserve">
+    <value>Ihr Einsatz: {0}</value>
+  </data>
+  <data name="rbmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rbmail.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fillinstance" xml:space="preserve">
+    <value>Instanzen füllen</value>
+  </data>
+  <data name="checkID" xml:space="preserve">
+    <value>Prüfe Kiosk-ID...</value>
+  </data>
+  <data name="kpc3" xml:space="preserve">
+    <value>Ungültiges Passwort</value>
+  </data>
+  <data name="freigabeTerminal" xml:space="preserve">
+    <value>Terminal wird freigegeben...</value>
+  </data>
+  <data name="sipErrorNoDefinePreis" xml:space="preserve">
+    <value>keine Preise definiert (EUR)</value>
+  </data>
+  <data name="sipErrorTelNr" xml:space="preserve">
+    <value>Bitte geben Sie eine gültige Telefonnummer ein</value>
+  </data>
+  <data name="rbmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rbmain.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sip_regler_basis_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_regler_basis_h.GIF;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aufladenMsg" xml:space="preserve">
+    <value>Daten werden geprüft....</value>
+  </data>
+  <data name="zeitZone" xml:space="preserve">
+    <value>Zeitzone wird geprüft...</value>
+  </data>
+  <data name="last1Minuten" xml:space="preserve">
+    <value>In wenigen Sekunden wird dein Terminal </value>
+  </data>
+  <data name="supportText" xml:space="preserve">
+    <value>keine Support-ID hinterlegt!</value>
+  </data>
+  <data name="sipError35" xml:space="preserve">
+    <value>Fehler beim lesen der Datei im Format wav</value>
+  </data>
+  <data name="sipError19" xml:space="preserve">
+    <value>Sprachausgabegerät unterstützt keine Lautstärkeneinstellung</value>
+  </data>
+  <data name="errorKioskIDorPwd" xml:space="preserve">
+    <value>Ungültige KIOSK-ID oder ungültiges Passwort!</value>
+  </data>
+  <data name="telefon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\telefon.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorVorname" xml:space="preserve">
+    <value>Bitte geben Sie Ihren Vornamen ein!</value>
+  </data>
+  <data name="smsLandListe" xml:space="preserve">
+    <value>noch nicht!!</value>
+  </data>
+  <data name="infoMP" xml:space="preserve">
+    <value>Münzprüfer</value>
+  </data>
+  <data name="sip_microphone_mute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_microphone_mute.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackMaxEinsatz" xml:space="preserve">
+    <value>Max. Einsatz: {0}</value>
+  </data>
+  <data name="rbsms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rbsms.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="onlineUpd" xml:space="preserve">
+    <value>Online-Update (Schritt &gt;&gt; {0} &lt;&lt; )</value>
+  </data>
+  <data name="errorInvalidID" xml:space="preserve">
+    <value>Ungültige KIOSK-ID </value>
+  </data>
+  <data name="maufladen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\maufladen.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rmain.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="schloss" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\schloss.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wdlgcam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wdlgcam.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu03" xml:space="preserve">
+    <value>Terminal beenden</value>
+  </data>
+  <data name="sip_c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_c.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wemail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wemail.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sucheInternet" xml:space="preserve">
+    <value>Suche Internetverbindung...</value>
+  </data>
+  <data name="errorVorwahlEingabe" xml:space="preserve">
+    <value>Bitte geben Sie die Vorwahl ein!</value>
+  </data>
+  <data name="geldscheinpruefer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\geldscheinpruefer.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sipError10" xml:space="preserve">
+    <value>Sie sind nicht angemeldet. Bitte betätigen Sie die Wahltaste.</value>
+  </data>
+  <data name="blackKVerloren" xml:space="preserve">
+    <value>Verloren</value>
+  </data>
+  <data name="sip_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lexit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\lexit.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorWebCam" xml:space="preserve">
+    <value>Webcam nicht vorhanden</value>
+  </data>
+  <data name="wdrucken" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\wdrucken.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="last2Minuten" xml:space="preserve">
+    <value>Dein Terminal wird gesperrt. Bitte bereite dich vor 119 . . 117 . . 115</value>
+  </data>
+  <data name="bittewarten" xml:space="preserve">
+    <value>Bitte warten . . .</value>
+  </data>
+  <data name="sip_speaker_mute" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_speaker_mute.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blackDoppeln" xml:space="preserve">
+    <value>Doppeln</value>
+  </data>
+  <data name="doppelt_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\doppelt_over.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sip_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infoErrorEnde" xml:space="preserve">
+    <value>Fehler {0}</value>
+  </data>
+  <data name="closeApp" xml:space="preserve">
+    <value>Beende Kioskplus</value>
+  </data>
+  <data name="sipErrorDaten" xml:space="preserve">
+    <value>ungültige Verbindungsdaten</value>
+  </data>
+  <data name="blackStehen" xml:space="preserve">
+    <value>Stehen</value>
+  </data>
+  <data name="errorDruckenGuthaben" xml:space="preserve">
+    <value>Guthaben nicht ausreichend. Bitte aufladen!</value>
+  </data>
+  <data name="blockedID" xml:space="preserve">
+    <value>Diese KIOSK-ID wurde gesperrt!</value>
+  </data>
+  <data name="raufladen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\raufladen.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpc1" xml:space="preserve">
+    <value>Benutzername existiert nicht, oder das Passwort ist falsch</value>
+  </data>
+  <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\1.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="objLaden" xml:space="preserve">
+    <value>Objekte laden...</value>
+  </data>
+  <data name="sipError26" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="sipError14" xml:space="preserve">
+    <value>Eingabegerät Mikrofon nicht verfügbar oder wird durch eine andere Anwendung verwendet</value>
+  </data>
+  <data name="rmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rmail.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\lmain.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\main.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rsms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rsms.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\2.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="allgInternetError" xml:space="preserve">
+    <value>Überprüfen Sie bitte, ob eine Netzwerk-/Internet-Verbindung besteht</value>
+  </data>
+  <data name="errorEmail" xml:space="preserve">
+    <value>Beim Versenden der EMail ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="readKC" xml:space="preserve">
+    <value>Lese Kundencenterdaten...</value>
+  </data>
+  <data name="kpc2" xml:space="preserve">
+    <value>Benutzer ist bereits angemeldet</value>
+  </data>
+  <data name="rbaufladen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rbaufladen.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorMPComPort" xml:space="preserve">
+    <value>Bitte wählen Sie den Com-Port aus an dem der Münzprüfer angeschlossen ist oder setzen Sie 'Com-Port' auf 'AUS'</value>
+  </data>
+  <data name="successConnect" xml:space="preserve">
+    <value>Verbindung erfolgreich</value>
+  </data>
+  <data name="sipCommError" xml:space="preserve">
+    <value>SIP communication port kann nicht geöffnet werden.</value>
+  </data>
+  <data name="mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\mail.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpc4" xml:space="preserve">
+    <value>Ungültiger Standort</value>
+  </data>
+  <data name="sipNoAllow" xml:space="preserve">
+    <value>Telefonieren ist für dieses Terminal deaktiv.</value>
+  </data>
+  <data name="sipError21" xml:space="preserve">
+    <value>Datei vom Format *.wav konnte nicht geöffnet werden</value>
+  </data>
+  <data name="successSMS" xml:space="preserve">
+    <value>Ihre SMS wurde erfolgreich versendet</value>
+  </data>
+  <data name="blackDoppelnError" xml:space="preserve">
+    <value>Doppeln nicht möglich, {0} da Ihr Guthaben nicht ausreicht! {1} Bitte werfen Sie eine Münze nach</value>
+  </data>
+  <data name="menu06" xml:space="preserve">
+    <value>Blackjack</value>
+  </data>
+  <data name="successEnde" xml:space="preserve">
+    <value>Erfolgreich beendet!</value>
+  </data>
+  <data name="checkFreigabe" xml:space="preserve">
+    <value>Freigabe überprüfen...</value>
+  </data>
+  <data name="infoDeactive" xml:space="preserve">
+    <value>{0} | deaktiv</value>
+  </data>
+  <data name="newAgent" xml:space="preserve">
+    <value>Hallo {0} . . . Ich bin Agent {1}</value>
+  </data>
+  <data name="btnBeenden" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="sip_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rbtelefon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rbtelefon.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deaktivKontoAnlegen" xml:space="preserve">
+    <value>Anlegen von Benutzerkonten ist für dieses Terminal deaktiv</value>
+  </data>
+  <data name="dtelefon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dtelefon.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="daufladen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\daufladen.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorName" xml:space="preserve">
+    <value>Bitte geben Sie Ihren Namen ein!</value>
+  </data>
+  <data name="muennzpruefer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\muennzpruefer.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorChooseTelNr" xml:space="preserve">
+    <value>Bitte geben Sie die Telefonnummer ein!</value>
+  </data>
+  <data name="stehen_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\stehen_normal.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorNoNachricht" xml:space="preserve">
+    <value>Bitte schreiben Sie Ihre Nachricht!</value>
+  </data>
+  <data name="skin3" xml:space="preserve">
+    <value>Lade dein bestehendes Benutzerkonto mit neuem Guthaben oder mit einem Coupon auf.</value>
+  </data>
+  <data name="sipErrorNoGuthaben" xml:space="preserve">
+    <value>Guthaben aufgebraucht !</value>
+  </data>
+  <data name="errorPreis" xml:space="preserve">
+    <value>Bitte geben Sie Preise ein!</value>
+  </data>
+  <data name="sipCallingNumber" xml:space="preserve">
+    <value>Die Nummer wird gewählt . . .</value>
+  </data>
+  <data name="inet_about" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\inet_about.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorPwdAgain" xml:space="preserve">
+    <value>Bitte korrigieren Sie die Passwort-Wiederholung!</value>
+  </data>
+  <data name="sipErrorGuthaben" xml:space="preserve">
+    <value>Das Gesprächsguthaben ist in kürze aufgebraucht!</value>
+  </data>
+  <data name="skin4" xml:space="preserve">
+    <value>Einfach Super, du kannst von diesem Terminal aus sehr günstige SMS versenden. Der Versand ist günstiger und bequemer als vom Handy</value>
+  </data>
+  <data name="readKCPreis" xml:space="preserve">
+    <value>Lese Kundencenterpreise...</value>
+  </data>
+  <data name="checkData" xml:space="preserve">
+    <value>Daten prüfen....</value>
+  </data>
+  <data name="blackUnentschieden" xml:space="preserve">
+    <value>Unentschieden</value>
+  </data>
+  <data name="blackNehmen" xml:space="preserve">
+    <value>Nehmen</value>
+  </data>
+  <data name="laufladen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\laufladen.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rtelefon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rtelefon.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skin5" xml:space="preserve">
+    <value>Du willst uns verlassen? Ich wünsche dir noch einen angenehmen Tag.{0} besuche mich bald wieder</value>
+  </data>
+  <data name="sip_iphone01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_iphone01.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smsKonto" xml:space="preserve">
+    <value>Es können noch {0} SMS versendet werden</value>
+  </data>
+  <data name="logo_kuncenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\logo_kuncenter.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rbexit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\rbexit.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sipError27" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="mpErrorFoundII" xml:space="preserve">
+    <value>Der richtige Münzprüfer konnte nicht gefunden werden. Bitte überprüfen Sie die Einstellungen</value>
+  </data>
+  <data name="blackSplitten" xml:space="preserve">
+    <value>Splitten</value>
+  </data>
+  <data name="sip_regler_basis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_regler_basis.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="proSMSKostet" xml:space="preserve">
+    <value>Eine SMS kostet Sie {0} min(={1}  {2})</value>
+  </data>
+  <data name="sipError28" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="infoActive" xml:space="preserve">
+    <value>{0} | aktiv</value>
+  </data>
+  <data name="successCheck" xml:space="preserve">
+    <value>Prüfung erfolgreich</value>
+  </data>
+  <data name="successSaveKD" xml:space="preserve">
+    <value>Kundendaten erfolgreich gespeichert</value>
+  </data>
+  <data name="msms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\msms.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="last4Minuten" xml:space="preserve">
+    <value>danach wird dein Terminal gesperrt.</value>
+  </data>
+  <data name="sipCallingEnde" xml:space="preserve">
+    <value>Anruf beendet. . .</value>
+  </data>
+  <data name="kpc9" xml:space="preserve">
+    <value>Sie sind bereits angemeldet !</value>
+  </data>
+  <data name="sipError12" xml:space="preserve">
+    <value>Lizenzfehler ist aufgetreten</value>
+  </data>
+  <data name="sip_anfasser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_anfasser.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sms.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sipError36" xml:space="preserve">
+    <value>Fehler beim schreiben der Datei im Format wav</value>
+  </data>
+  <data name="readKeyAndPrise" xml:space="preserve">
+    <value>Tasten und Preise lesen...</value>
+  </data>
+  <data name="portAus" xml:space="preserve">
+    <value>AUS</value>
+  </data>
+  <data name="sip_speaker_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\sip_speaker_on.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infoSuccessEnde" xml:space="preserve">
+    <value>Erfolgreich beendet</value>
+  </data>
+  <data name="benutzer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\benutzer.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sipSuccessEnde" xml:space="preserve">
+    <value>Erfolgreich beendet</value>
+  </data>
+  <data name="sipErrorPort" xml:space="preserve">
+    <value>Es ist nicht möglich einen freien Port für die Kommunikation zu finden.</value>
+  </data>
+  <data name="lsms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\lsms.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sipError32" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="errorNickname" xml:space="preserve">
+    <value>Bitte geben Sie einen Benutzernamen (Nick-Namen) ein!</value>
+  </data>
+  <data name="dlgFileTitle" xml:space="preserve">
+    <value>Bitte wählen Sie eine Datei aus</value>
+  </data>
+  <data name="errorSMSZeitGuthaben" xml:space="preserve">
+    <value>Ihr Zeitguthaben reicht nicht aus!</value>
+  </data>
+  <data name="sipError34" xml:space="preserve">
+    <value>Fehler beim initialisieren der Telefonverbindung</value>
+  </data>
+  <data name="inet_blackjack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\inet_blackjack.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorFalschPwd" xml:space="preserve">
+    <value>Bitte geben Sie Ihr richtiges Passwort ein!</value>
+  </data>
+  <data name="ti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\ti.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dmain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\dmain.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kpc20" xml:space="preserve">
+    <value>Mit der nächsten Falscheingabe wird die KIOSK-ID gesperrt!</value>
+  </data>
+  <data name="de" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\de.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\gb.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\ru.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\tr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="errorhobby" xml:space="preserve">
+    <value>Bitte wähle deine Interessen aus</value>
+  </data>
+  <data name="cancelLicenceAction" xml:space="preserve">
+    <value>Aktion wurde abgebrochen</value>
+  </data>
+  <data name="kpc112" xml:space="preserve">
+    <value>In Ihrem Land werden keine Freie Lizenzen unterstützt. Möchten Sie kostenpflichtige Lizenzen benutzen?</value>
+  </data>
+  <data name="kpc113" xml:space="preserve">
+    <value>Ein allgemeiner Fehler ist aufgetreten. Bitte versuchen Sie später noch einmal.</value>
+  </data>
+  <data name="kpc114" xml:space="preserve">
+    <value>Ihre Kundennummer oder Passwort ist falsch. Bitte geben Sie Ihre Daten erneut an.</value>
+  </data>
+  <data name="menu08" xml:space="preserve">
+    <value>Spiele</value>
+  </data>
+  <data name="user_blank" xml:space="preserve">
+    <value>. . .</value>
+  </data>
+  <data name="user_email" xml:space="preserve">
+    <value>Einfach SUPER ! Kostenloser Email Versand ! Das war bisher nicht so einfach....!</value>
+  </data>
+  <data name="user_konto" xml:space="preserve">
+    <value>Das ist Cool ! Ein Konto anlegen und jederzeit mit deinem Nick-Namen und Passwort anmelden  . . . .</value>
+  </data>
+  <data name="user_konto_aufladen" xml:space="preserve">
+    <value>Laden Sie Ihr bestehendes Konto auf, um die Zeit später wieder verwenden zu können. ODER Erwerben Sie ein Coupon um Ihr Konto aufzuladen ! . . .</value>
+  </data>
+  <data name="user_phone" xml:space="preserve">
+    <value>Wahnsinn, Bald können Sie von diesem Terminal aus telefonieren auf Festnetz, Handy, Ausland und das VIEL GÜNSTIGER als  normal ! . . .</value>
+  </data>
+  <data name="user_sms" xml:space="preserve">
+    <value>Super günstiger SMS-Versand! Schneller und Günstiger als vom Handy !</value>
+  </data>
+</root>

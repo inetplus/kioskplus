@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="allgEingabeError" xml:space="preserve">
+    <value>Fields marked with * are required fields.</value>
+  </data>
+  <data name="allgInternetError" xml:space="preserve">
+    <value>Please check your Network and Internet-Connection</value>
+  </data>
+  <data name="aufladenMsg" xml:space="preserve">
+    <value>checking data....</value>
+  </data>
+  <data name="billErrorFound" xml:space="preserve">
+    <value>no acceptor found, please check your configuration.</value>
+  </data>
+  <data name="billSuccessFound" xml:space="preserve">
+    <value>Acceptor found, please finish your configuration.</value>
+  </data>
+  <data name="bittewarten" xml:space="preserve">
+    <value>Please wait . . .</value>
+  </data>
+  <data name="bittewartenSMS" xml:space="preserve">
+    <value>SMS sending... Please wait...</value>
+  </data>
+  <data name="blackDoppeln" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="blackDoppelnError" xml:space="preserve">
+    <value>Double not possible, {0} your credit is not enough! {1} Please insert a coin.</value>
+  </data>
+  <data name="blackEinsatz" xml:space="preserve">
+    <value>Your commitment: {0}</value>
+  </data>
+  <data name="blackEinsatzDelete" xml:space="preserve">
+    <value>Delete commitment</value>
+  </data>
+  <data name="blackErrorEinsatz" xml:space="preserve">
+    <value>{0}{1}Enter your commitment</value>
+  </data>
+  <data name="blackGewonnen" xml:space="preserve">
+    <value>You have won</value>
+  </data>
+  <data name="blackKVerloren" xml:space="preserve">
+    <value>Lost</value>
+  </data>
+  <data name="blackMaxEinsatz" xml:space="preserve">
+    <value>Max. Commitment: {0}</value>
+  </data>
+  <data name="blackMaxEinsatzUeber" xml:space="preserve">
+    <value>{0}{1}Max. commitment exceeded</value>
+  </data>
+  <data name="blackNehmen" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="blackSplitten" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="blackSplittenError" xml:space="preserve">
+    <value>Split not possible,{0} your credit is not enough! {1}Please insert a coin.</value>
+  </data>
+  <data name="blackStehen" xml:space="preserve">
+    <value>Stand</value>
+  </data>
+  <data name="blackUnentschieden" xml:space="preserve">
+    <value>stand-off</value>
+  </data>
+  <data name="blackVerloren" xml:space="preserve">
+    <value>You have lost</value>
+  </data>
+  <data name="blackVersichern" xml:space="preserve">
+    <value>Insurance?</value>
+  </data>
+  <data name="blackWeiter" xml:space="preserve">
+    <value>continue</value>
+  </data>
+  <data name="blockedID" xml:space="preserve">
+    <value>This KIOSK-ID was deactivated!</value>
+  </data>
+  <data name="btnBeenden" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="checkData" xml:space="preserve">
+    <value>checking data....</value>
+  </data>
+  <data name="checkFreigabe" xml:space="preserve">
+    <value>Checking for release...</value>
+  </data>
+  <data name="checkID" xml:space="preserve">
+    <value>Checking your KIOSK-ID</value>
+  </data>
+  <data name="checkSperrSeite" xml:space="preserve">
+    <value>Checking the site!</value>
+  </data>
+  <data name="closeApp" xml:space="preserve">
+    <value>closing kioskplus</value>
+  </data>
+  <data name="deaktivKontoAnlegen" xml:space="preserve">
+    <value>Creation of User Accounts deactivated at this terminal</value>
+  </data>
+  <data name="deaktivKontoAufladen" xml:space="preserve">
+    <value>Charging of User Accounts deactivated at this terminal</value>
+  </data>
+  <data name="dlgFileExtension" xml:space="preserve">
+    <value>All Files|*.*</value>
+  </data>
+  <data name="dlgFileTitle" xml:space="preserve">
+    <value>Please select a File</value>
+  </data>
+  <data name="errorAufladenEingabe" xml:space="preserve">
+    <value>wrong input</value>
+  </data>
+  <data name="errorAufladenInvalidCharachter" xml:space="preserve">
+    <value>invalid character</value>
+  </data>
+  <data name="errorAufladenNoMinute" xml:space="preserve">
+    <value>Your remainder time must be {0] minute ....</value>
+  </data>
+  <data name="errorCheckTelNr" xml:space="preserve">
+    <value>Please correct the phone number!</value>
+  </data>
+  <data name="errorChooseLand" xml:space="preserve">
+    <value>Please select your Country!</value>
+  </data>
+  <data name="errorChooseTelNr" xml:space="preserve">
+    <value>Please enter the phone number!</value>
+  </data>
+  <data name="errorDruckenGuthaben" xml:space="preserve">
+    <value>No sufficient Credit</value>
+  </data>
+  <data name="errorEmail" xml:space="preserve">
+    <value>Error occured, when sending E-Mail</value>
+  </data>
+  <data name="errorEmailAdress" xml:space="preserve">
+    <value>Please enter a valid Email-Address!</value>
+  </data>
+  <data name="errorEmailService" xml:space="preserve">
+    <value>Email-Service now not available</value>
+  </data>
+  <data name="errorFalschPwd" xml:space="preserve">
+    <value>Please enter your valid password!</value>
+  </data>
+  <data name="errorInValid" xml:space="preserve">
+    <value>Invalid character entered ( {0} )</value>
+  </data>
+  <data name="errorInvalidID" xml:space="preserve">
+    <value>Invalid KIOSK-ID </value>
+  </data>
+  <data name="errorInvalidNachricht" xml:space="preserve">
+    <value>Invalid Characters (&amp;=') in your message</value>
+  </data>
+  <data name="errorKioskIDorPwd" xml:space="preserve">
+    <value>Invalid KIOSK-ID or invalid Password!</value>
+  </data>
+  <data name="errorMP" xml:space="preserve">
+    <value>Please select coin Acceptor or set 'Com-Port' to 'OFF'</value>
+  </data>
+  <data name="errorMPComPort" xml:space="preserve">
+    <value>Please select COM-Port where coin Acceptor is installed or set 'Com-Port' to 'OFF'</value>
+  </data>
+  <data name="errorName" xml:space="preserve">
+    <value>Please enter your surname!</value>
+  </data>
+  <data name="errorNewPwdEingabe" xml:space="preserve">
+    <value>Please enter your valid password!</value>
+  </data>
+  <data name="errorNickname" xml:space="preserve">
+    <value>Please enter a username (Nickname) !</value>
+  </data>
+  <data name="errorNoNachricht" xml:space="preserve">
+    <value>Please write your message!</value>
+  </data>
+  <data name="errorPreis" xml:space="preserve">
+    <value>Please enter the price !</value>
+  </data>
+  <data name="errorPwdAgain" xml:space="preserve">
+    <value>Please correct your repeated password!</value>
+  </data>
+  <data name="errorPwdEingabe" xml:space="preserve">
+    <value>Please enter your password !</value>
+  </data>
+  <data name="errorSmsDeaktiv" xml:space="preserve">
+    <value>SMS-Shipping not activated for this terminal</value>
+  </data>
+  <data name="errorSMSZeitGuthaben" xml:space="preserve">
+    <value>Your credit time is not enough !</value>
+  </data>
+  <data name="errorVorname" xml:space="preserve">
+    <value>Please enter your name!</value>
+  </data>
+  <data name="errorVorwahl" xml:space="preserve">
+    <value>Please correct your area code!</value>
+  </data>
+  <data name="errorVorwahlEingabe" xml:space="preserve">
+    <value>Please enter your area code!</value>
+  </data>
+  <data name="fillinstance" xml:space="preserve">
+    <value>Fill instances</value>
+  </data>
+  <data name="freigabeDurch" xml:space="preserve">
+    <value>Release....</value>
+  </data>
+  <data name="freigabePruef" xml:space="preserve">
+    <value>checking ...</value>
+  </data>
+  <data name="freigabeTerminal" xml:space="preserve">
+    <value>Releasing terminal...</value>
+  </data>
+  <data name="incompleteInstall" xml:space="preserve">
+    <value>Installation not completed. Please refresh your installation.</value>
+  </data>
+  <data name="infoActive" xml:space="preserve">
+    <value>{0} | active</value>
+  </data>
+  <data name="infoBill" xml:space="preserve">
+    <value>Bill Acceptor</value>
+  </data>
+  <data name="infoDeactive" xml:space="preserve">
+    <value>{0} | not active</value>
+  </data>
+  <data name="infoErrorEnde" xml:space="preserve">
+    <value>Error {0}</value>
+  </data>
+  <data name="infoGames" xml:space="preserve">
+    <value>Entertainment</value>
+  </data>
+  <data name="infoIkunden" xml:space="preserve">
+    <value>User Account</value>
+  </data>
+  <data name="infoMP" xml:space="preserve">
+    <value>Coin Acceptor</value>
+  </data>
+  <data name="infoMPBill" xml:space="preserve">
+    <value>Coin Acceptor and Bill Acceptor</value>
+  </data>
+  <data name="infoSMS" xml:space="preserve">
+    <value>SMS-Shipping</value>
+  </data>
+  <data name="infoSuccessEnde" xml:space="preserve">
+    <value>Completed successfully</value>
+  </data>
+  <data name="infoVoip" xml:space="preserve">
+    <value>Calling</value>
+  </data>
+  <data name="kpc1" xml:space="preserve">
+    <value>Wrong Input</value>
+  </data>
+  <data name="kpc10" xml:space="preserve">
+    <value>Coupon is disabled !</value>
+  </data>
+  <data name="kpc11" xml:space="preserve">
+    <value>Coupon was already used !</value>
+  </data>
+  <data name="kpc12" xml:space="preserve">
+    <value>is invalid</value>
+  </data>
+  <data name="kpc13" xml:space="preserve">
+    <value>not rechargeable Coupon. only possible for login!</value>
+  </data>
+  <data name="kpc14" xml:space="preserve">
+    <value>new Version only after Registering installable. Please contact us at support@inetplus.de.</value>
+  </data>
+  <data name="kpc15" xml:space="preserve">
+    <value>invalid KIOSK-ID or invalid Password ! </value>
+  </data>
+  <data name="kpc16" xml:space="preserve">
+    <value>This KIOSK-ID is disabled !</value>
+  </data>
+  <data name="kpc17" xml:space="preserve">
+    <value>SMS contingent is not enough.</value>
+  </data>
+  <data name="kpc18" xml:space="preserve">
+    <value>Your Credit is not enough.</value>
+  </data>
+  <data name="kpc19" xml:space="preserve">
+    <value>Username is already used</value>
+  </data>
+  <data name="kpc2" xml:space="preserve">
+    <value>User is already logged in </value>
+  </data>
+  <data name="kpc20" xml:space="preserve">
+    <value>the KIOSK-ID will be blocked with the next incorrectly entered!</value>
+  </data>
+  <data name="kpc3" xml:space="preserve">
+    <value>invalid password</value>
+  </data>
+  <data name="kpc4" xml:space="preserve">
+    <value>invalid location</value>
+  </data>
+  <data name="kpc5" xml:space="preserve">
+    <value>account is disabled</value>
+  </data>
+  <data name="kpc6" xml:space="preserve">
+    <value>account was deleted</value>
+  </data>
+  <data name="kpc7" xml:space="preserve">
+    <value>account is empty.Please recharge </value>
+  </data>
+  <data name="kpc8" xml:space="preserve">
+    <value>invalid location (Share)!</value>
+  </data>
+  <data name="kpc9" xml:space="preserve">
+    <value>You are already logged in !</value>
+  </data>
+  <data name="last1Minuten" xml:space="preserve">
+    <value>Your terminal will be shortly</value>
+  </data>
+  <data name="last2Minuten" xml:space="preserve">
+    <value>Your terminal will be blocked. Please be ready in 119 . . 177 . . 115</value>
+  </data>
+  <data name="last3Minuten" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="last4Minuten" xml:space="preserve">
+    <value>after that your terminal will be blocked.</value>
+  </data>
+  <data name="last5Minuten" xml:space="preserve">
+    <value>after that your terminal will be blocked. Please remember a timely extension.</value>
+  </data>
+  <data name="lastMinutenNoch" xml:space="preserve">
+    <value>You have only {0} minutes . .</value>
+  </data>
+  <data name="menu01" xml:space="preserve">
+    <value>Support Connection</value>
+  </data>
+  <data name="menu02" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="menu03" xml:space="preserve">
+    <value>Exit terminal</value>
+  </data>
+  <data name="menu04" xml:space="preserve">
+    <value>inetplus Agent change</value>
+  </data>
+  <data name="menu05" xml:space="preserve">
+    <value>inetplus Agent deactivate</value>
+  </data>
+  <data name="menu052" xml:space="preserve">
+    <value>inetplus Agent activate</value>
+  </data>
+  <data name="menu06" xml:space="preserve">
+    <value>Blackjack</value>
+  </data>
+  <data name="mpErrorFound" xml:space="preserve">
+    <value>No coin acceptor found, please check your configuration</value>
+  </data>
+  <data name="mpErrorFoundII" xml:space="preserve">
+    <value>Coin Acceptor not found. Please check your configuration</value>
+  </data>
+  <data name="mpFoundFalse" xml:space="preserve">
+    <value>Selected coin Acceptor not supported. Error-Code: 00H3F47</value>
+  </data>
+  <data name="mpSuccessFound" xml:space="preserve">
+    <value>Coin Acceptor found. Please configure them</value>
+  </data>
+  <data name="msgAppNeuStart" xml:space="preserve">
+    <value>Kioskplus will be restarted! Please click 'OK' to continue</value>
+  </data>
+  <data name="msgPCNeuStart" xml:space="preserve">
+    <value>This computer is now restarted, so that fully functions can be activated ! {0} Please enter  'OK' to continue</value>
+  </data>
+  <data name="newAgent" xml:space="preserve">
+    <value>Hello {0} . . . I am Agent {1}</value>
+  </data>
+  <data name="objLaden" xml:space="preserve">
+    <value>Loading objects...</value>
+  </data>
+  <data name="onlineUpd" xml:space="preserve">
+    <value>Online-Update (Step &gt;&gt; {0} &lt;&lt; )</value>
+  </data>
+  <data name="portAus" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="proSMSKostet" xml:space="preserve">
+    <value>one SMS costs {0} min(={1}  {2})</value>
+  </data>
+  <data name="readBootProperty" xml:space="preserve">
+    <value>reading Boot-Settings</value>
+  </data>
+  <data name="readGUID" xml:space="preserve">
+    <value>Reading GUID-Data...</value>
+  </data>
+  <data name="readKC" xml:space="preserve">
+    <value>Reading data from Customer Center...</value>
+  </data>
+  <data name="readKCPreis" xml:space="preserve">
+    <value>Reading prices from Customer Center...</value>
+  </data>
+  <data name="readKCPrint" xml:space="preserve">
+    <value>reading Printer-Price...</value>
+  </data>
+  <data name="readKeyAndPrise" xml:space="preserve">
+    <value>Loading prices and shortcuts...</value>
+  </data>
+  <data name="readProtectOfMinor" xml:space="preserve">
+    <value>reading protection of children and young people -Settings</value>
+  </data>
+  <data name="sipBitteWarten" xml:space="preserve">
+    <value>Please wait! Establishing connection . . .</value>
+  </data>
+  <data name="sipCallingEnde" xml:space="preserve">
+    <value>Call terminates....</value>
+  </data>
+  <data name="sipCallingNumber" xml:space="preserve">
+    <value>Calling number . . .</value>
+  </data>
+  <data name="sipCommError" xml:space="preserve">
+    <value>SIP communication port could not be opened</value>
+  </data>
+  <data name="sipError10" xml:space="preserve">
+    <value>You are not connected. Please click the button to dial.</value>
+  </data>
+  <data name="sipError11" xml:space="preserve">
+    <value>Callingport is busy</value>
+  </data>
+  <data name="sipError12" xml:space="preserve">
+    <value>Licence error occured</value>
+  </data>
+  <data name="sipError13" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError14" xml:space="preserve">
+    <value>Inputdevice Mikro not available or is used by another Application</value>
+  </data>
+  <data name="sipError15" xml:space="preserve">
+    <value>Voice outputdevice not available or is blocked by another application</value>
+  </data>
+  <data name="sipError16" xml:space="preserve">
+    <value>Inputdevice Mikro not available</value>
+  </data>
+  <data name="sipError17" xml:space="preserve">
+    <value>Voice outputdevice not available</value>
+  </data>
+  <data name="sipError18" xml:space="preserve">
+    <value>Voice outputdevice supports no volume intensity</value>
+  </data>
+  <data name="sipError19" xml:space="preserve">
+    <value>Voice outputdevice supports no volume intensity</value>
+  </data>
+  <data name="sipError20" xml:space="preserve">
+    <value>Recording media initialization failed</value>
+  </data>
+  <data name="sipError21" xml:space="preserve">
+    <value>File in *.wav Format could not be opened</value>
+  </data>
+  <data name="sipError22" xml:space="preserve">
+    <value>Error when initializing</value>
+  </data>
+  <data name="sipError23" xml:space="preserve">
+    <value>Codec not supported</value>
+  </data>
+  <data name="sipError24" xml:space="preserve">
+    <value>SDP-Request could not be created</value>
+  </data>
+  <data name="sipError25" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError26" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError27" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError28" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError29" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError30" xml:space="preserve">
+    <value>Error when initializing connection (busy)</value>
+  </data>
+  <data name="sipError31" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError32" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError33" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError34" xml:space="preserve">
+    <value>Error when initializing connection</value>
+  </data>
+  <data name="sipError35" xml:space="preserve">
+    <value>Error when trying to read File in Format wav</value>
+  </data>
+  <data name="sipError36" xml:space="preserve">
+    <value>Error when trying to write File in Format wav</value>
+  </data>
+  <data name="sipError37" xml:space="preserve">
+    <value>not supported File Format</value>
+  </data>
+  <data name="sipErrorDaten" xml:space="preserve">
+    <value>Invalid dialing data</value>
+  </data>
+  <data name="sipErrorGuthaben" xml:space="preserve">
+    <value>Your Credit has shortly used up!</value>
+  </data>
+  <data name="sipErrorInvalidNr" xml:space="preserve">
+    <value>invalid call number</value>
+  </data>
+  <data name="sipErrorNoDefinePreis" xml:space="preserve">
+    <value>No prices defined ! (EUR)</value>
+  </data>
+  <data name="sipErrorNoDefineWaehrung" xml:space="preserve">
+    <value>No prices defined ! (Currency)</value>
+  </data>
+  <data name="sipErrorNoGuthaben" xml:space="preserve">
+    <value>Credit used up !</value>
+  </data>
+  <data name="sipErrorPort" xml:space="preserve">
+    <value>Not possible to find a unused port for establishing the connection.</value>
+  </data>
+  <data name="sipErrorTelNr" xml:space="preserve">
+    <value>Please enter a valid telephone number</value>
+  </data>
+  <data name="sipKontoGuthaben" xml:space="preserve">
+    <value>Your Credit has used up. Charging possible by http://www.kuncenter.de</value>
+  </data>
+  <data name="sipNoAllow" xml:space="preserve">
+    <value>Calling is deactivated at this terminal.</value>
+  </data>
+  <data name="sipStartCalling" xml:space="preserve">
+    <value>Call started !</value>
+  </data>
+  <data name="sipSuccessEnde" xml:space="preserve">
+    <value>Completed successfully</value>
+  </data>
+  <data name="sipZeitGuthaben" xml:space="preserve">
+    <value>Time credit not enough. Please insert coin.</value>
+  </data>
+  <data name="skin1" xml:space="preserve">
+    <value>fantastic, send free emails without registration. Send emails to your friends</value>
+  </data>
+  <data name="skin2" xml:space="preserve">
+    <value>Just a dream, create in three steps a user account and continue surfing with the remaining time</value>
+  </data>
+  <data name="skin3" xml:space="preserve">
+    <value>charge your existing account with new credit or with a coupon</value>
+  </data>
+  <data name="skin4" xml:space="preserve">
+    <value>Just easy, you can send favourable SMS from this terminal. The Message is cheaper and more convenient than from phone</value>
+  </data>
+  <data name="skin5" xml:space="preserve">
+    <value>You want to leave us? I still wish you a pleasant day. (0) visit me again soon</value>
+  </data>
+  <data name="skin6" xml:space="preserve">
+    <value>You can make cheap calls fixed line, mobile and abroad</value>
+  </data>
+  <data name="smsKonto" xml:space="preserve">
+    <value>Possible to send {0} SMS </value>
+  </data>
+  <data name="smsLandListe" xml:space="preserve">
+    <value>noch nicht!!!!!!!!!!!!!!!!</value>
+  </data>
+  <data name="successCheck" xml:space="preserve">
+    <value>Check successfull</value>
+  </data>
+  <data name="successConnect" xml:space="preserve">
+    <value>Successfully connected</value>
+  </data>
+  <data name="successEmail" xml:space="preserve">
+    <value>E-Mail send successfull !</value>
+  </data>
+  <data name="successEnde" xml:space="preserve">
+    <value>Completed successfully!</value>
+  </data>
+  <data name="successSaveKD" xml:space="preserve">
+    <value>Customer data saved with success</value>
+  </data>
+  <data name="successSMS" xml:space="preserve">
+    <value>Your SMS is successfully send.</value>
+  </data>
+  <data name="sucheInternet" xml:space="preserve">
+    <value>Search for internetconnection...</value>
+  </data>
+  <data name="menu07" xml:space="preserve">
+    <value>send photo</value>
+  </data>
+  <data name="errorWebCam" xml:space="preserve">
+    <value>Webcam not found</value>
+  </data>
+  <data name="noMoneyInsert" xml:space="preserve">
+    <value>Please don't insert coins. restart in 5 seconds!</value>
+  </data>
+  <data name="supportText" xml:space="preserve">
+    <value>no Support-ID available!</value>
+  </data>
+  <data name="zeitZone" xml:space="preserve">
+    <value>checking time zone...</value>
+  </data>
+  <data name="preisTitle" xml:space="preserve">
+    <value>Price per hour:</value>
+  </data>
+  <data name="errorhobby" xml:space="preserve">
+    <value>Please select your interest</value>
+  </data>
+  <data name="cancelLicenceAction" xml:space="preserve">
+    <value>action has been cancelled</value>
+  </data>
+  <data name="errorKdNr" xml:space="preserve">
+    <value>Your customer number is invalid. Please give your customer number.</value>
+  </data>
+  <data name="getfreelicence" xml:space="preserve">
+    <value>We have created the following Kiosk-Id for you. {0} Your passwort for this Kiosk-ID is "inetplus".{1}Your Kiosk-ID:{2}</value>
+  </data>
+  <data name="kpc112" xml:space="preserve">
+    <value>No free licence supported in your country. Would you like to use licence with cost?</value>
+  </data>
+  <data name="kpc113" xml:space="preserve">
+    <value>A general error has occured! Please try again later.</value>
+  </data>
+  <data name="kpc114" xml:space="preserve">
+    <value>Your customer number or password is wrong. Please re-type your customer number and password.</value>
+  </data>
+  <data name="menu08" xml:space="preserve">
+    <value>Games</value>
+  </data>
+  <data name="user_blank" xml:space="preserve">
+    <value>. . .</value>
+  </data>
+  <data name="user_email" xml:space="preserve">
+    <value>Send email very fast and easy !....</value>
+  </data>
+  <data name="user_konto" xml:space="preserve">
+    <value>Cool! You can create an account and log in with your username  everytime . . . .</value>
+  </data>
+  <data name="user_konto_aufladen" xml:space="preserve">
+    <value>load your existing account to use it later OR buy voucher/coupon to load your account ! . . .</value>
+  </data>
+  <data name="user_phone" xml:space="preserve">
+    <value>Make a call to landline or mobile devices very fast and cheaper ! . . .</value>
+  </data>
+  <data name="user_sms" xml:space="preserve">
+    <value>Very cheap SMS-Transmission! Very fast, easy and cheaper than mobile device !</value>
+  </data>
+</root>

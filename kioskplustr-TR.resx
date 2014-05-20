@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sipError16" xml:space="preserve">
+    <value>Mikrofon mevcut değil</value>
+  </data>
+  <data name="freigabeDurch" xml:space="preserve">
+    <value>Açılıyor....</value>
+  </data>
+  <data name="bittewartenSMS" xml:space="preserve">
+    <value>SMS`iniz gönderiliyor.Lütfen bekleyiniz...</value>
+  </data>
+  <data name="blackWeiter" xml:space="preserve">
+    <value>Devam</value>
+  </data>
+  <data name="sipBitteWarten" xml:space="preserve">
+    <value>Lütfen bekleyiniz! Bağlantı kuruluyor . . .</value>
+  </data>
+  <data name="mpErrorFoundII" xml:space="preserve">
+    <value>Doğru olan Bozuk para aleti bulunamadı.Lütfen kontrol ediniz .</value>
+  </data>
+  <data name="errorAufladenInvalidCharachter" xml:space="preserve">
+    <value>Geçersiz karakter</value>
+  </data>
+  <data name="sipError37" xml:space="preserve">
+    <value>Dosya türü desteklenmiyor</value>
+  </data>
+  <data name="errorAufladenNoMinute" xml:space="preserve">
+    <value>Kalan zamanınız en az {0} dakika olmak zorunda....</value>
+  </data>
+  <data name="sipErrorInvalidNr" xml:space="preserve">
+    <value>Geçersiz numara</value>
+  </data>
+  <data name="infoBill" xml:space="preserve">
+    <value>Kağıt para aleti</value>
+  </data>
+  <data name="blackGewonnen" xml:space="preserve">
+    <value>Kazandınız</value>
+  </data>
+  <data name="readBootProperty" xml:space="preserve">
+    <value>Boot ayarları okunuyor...</value>
+  </data>
+  <data name="errorInvalidNachricht" xml:space="preserve">
+    <value>Mesajınız geçersiz bir karakter içeriyor (&amp;=')</value>
+  </data>
+  <data name="sipError15" xml:space="preserve">
+    <value>Hopörlör mevcut değil yada başka uygulamada kullanılıyor.</value>
+  </data>
+  <data name="sipError20" xml:space="preserve">
+    <value>Kayıt yapılamadı</value>
+  </data>
+  <data name="sipErrorNoGuthaben" xml:space="preserve">
+    <value>Kontör tükendi !</value>
+  </data>
+  <data name="errorEmailAdress" xml:space="preserve">
+    <value>Lütfen geçerli bir E-mail adresi girin!</value>
+  </data>
+  <data name="sipError18" xml:space="preserve">
+    <value>Hopörlör ses ayarlarını desteklemiyor</value>
+  </data>
+  <data name="sipError34" xml:space="preserve">
+    <value>Telefon bağlantısında hata</value>
+  </data>
+  <data name="blackErrorEinsatz" xml:space="preserve">
+    <value>Lütfen Bahsinizi giriniz</value>
+  </data>
+  <data name="errorEmail" xml:space="preserve">
+    <value>E-mail gönderilirken hata oluştu.</value>
+  </data>
+  <data name="billErrorFound" xml:space="preserve">
+    <value>Cihaz bulunamadı. Lütfen ayarlarınızı kontrol ediniz.</value>
+  </data>
+  <data name="errorCheckTelNr" xml:space="preserve">
+    <value>Lütfen Telefon numarasını düzeltiniz!</value>
+  </data>
+  <data name="blackEinsatzDelete" xml:space="preserve">
+    <value>Bahisi sil</value>
+  </data>
+  <data name="errorAufladenEingabe" xml:space="preserve">
+    <value>Yanlış giriş</value>
+  </data>
+  <data name="errorNewPwdEingabe" xml:space="preserve">
+    <value>Lütfen yeni bir Şifre girin!</value>
+  </data>
+  <data name="errorSmsDeaktiv" xml:space="preserve">
+    <value>SMS-Gönderme aktif değil</value>
+  </data>
+  <data name="readKeyAndPrise" xml:space="preserve">
+    <value>Tuşları ve fiyatları oku...</value>
+  </data>
+  <data name="sipErrorNoDefineWaehrung" xml:space="preserve">
+    <value>Fiyat tanımlanmamış (Birim)</value>
+  </data>
+  <data name="sipZeitGuthaben" xml:space="preserve">
+    <value>Kontörünüz çok az.Lütfen para atın.</value>
+  </data>
+  <data name="sipError17" xml:space="preserve">
+    <value>Hopörlör  mevcut değil</value>
+  </data>
+  <data name="errorInValid" xml:space="preserve">
+    <value>Geçersiz karakter girildi ( {0} )</value>
+  </data>
+  <data name="errorChooseLand" xml:space="preserve">
+    <value>Lütfen bir Ülke seçiniz!</value>
+  </data>
+  <data name="sipError30" xml:space="preserve">
+    <value>Telefon bağlantısında hata (meşgul)</value>
+  </data>
+  <data name="readGUID" xml:space="preserve">
+    <value>GUID-Bilgileri okunuyor...</value>
+  </data>
+  <data name="errorFalschPwd" xml:space="preserve">
+    <value>Lütfen doğru Şifrinizi girin!</value>
+  </data>
+  <data name="menu02" xml:space="preserve">
+    <value>Bilgi</value>
+  </data>
+  <data name="freigabePruef" xml:space="preserve">
+    <value>Kontrol ediliyor ...</value>
+  </data>
+  <data name="mpSuccessFound" xml:space="preserve">
+    <value>Bozuk para aleti bulunamıyor. Lütfen ayarlayınız.</value>
+  </data>
+  <data name="menu04" xml:space="preserve">
+    <value>Mr. Inetplus`u değiştir</value>
+  </data>
+  <data name="sipError12" xml:space="preserve">
+    <value>Lisans`da hata var</value>
+  </data>
+  <data name="sipError11" xml:space="preserve">
+    <value>Bağlantı meşgul</value>
+  </data>
+  <data name="menu01" xml:space="preserve">
+    <value>Support-Bağlantı</value>
+  </data>
+  <data name="sipStartCalling" xml:space="preserve">
+    <value>Görüşme başladı !</value>
+  </data>
+  <data name="readKCPrint" xml:space="preserve">
+    <value>Yazıcı fiyatı okunuyor...</value>
+  </data>
+  <data name="blackSplittenError" xml:space="preserve">
+    <value>Maalesef  BÖL seçeneğini kullanamazsınız , çünkü ilave bahis için Kontörünüz yeterli değil ! Lütfen para atınız.</value>
+  </data>
+  <data name="smsKonto" xml:space="preserve">
+    <value>Daha  {0} adet SMS  gönderilebilir.</value>
+  </data>
+  <data name="infoGames" xml:space="preserve">
+    <value>Sohbet</value>
+  </data>
+  <data name="infoSMS" xml:space="preserve">
+    <value>SMS-Gönder</value>
+  </data>
+  <data name="dlgFileExtension" xml:space="preserve">
+    <value>Bütün Dosyalar|*.*</value>
+  </data>
+  <data name="billSuccessFound" xml:space="preserve">
+    <value>Bir Cihaz bulundu.Lütfen ayarlarını yapınız.</value>
+  </data>
+  <data name="blackVersichern" xml:space="preserve">
+    <value>Sigortalamak istiyormusunuz?</value>
+  </data>
+  <data name="menu05" xml:space="preserve">
+    <value>Mr. Inetplus aktif değil</value>
+  </data>
+  <data name="sipError25" xml:space="preserve">
+    <value>Telefon bağlantısında hata</value>
+  </data>
+  <data name="errorPwdEingabe" xml:space="preserve">
+    <value>Lütfen Şifrenizi giriniz!</value>
+  </data>
+  <data name="sipError13" xml:space="preserve">
+    <value>Telefon bileşenlerinde hata </value>
+  </data>
+  <data name="infoMPBill" xml:space="preserve">
+    <value>Bozuk Para Aleti ve Kağıt para okuyucu</value>
+  </data>
+  <data name="menu052" xml:space="preserve">
+    <value>Mr. Inetplus aktif</value>
+  </data>
+  <data name="sipError24" xml:space="preserve">
+    <value>SDP-sorgusu yapılamadı.</value>
+  </data>
+  <data name="sipError23" xml:space="preserve">
+    <value>Codec desteklenmiyor</value>
+  </data>
+  <data name="allgEingabeError" xml:space="preserve">
+    <value>( * ) bulunan bütün alanlar doldurulmak zorunda.</value>
+  </data>
+  <data name="errorVorwahl" xml:space="preserve">
+    <value>Lütfen Kod Numarasını kontrol ediniz !</value>
+  </data>
+  <data name="errorSMSZeitGuthaben" xml:space="preserve">
+    <value>Zamanınız (Kontörünz) yeterli değil !</value>
+  </data>
+  <data name="msgAppNeuStart" xml:space="preserve">
+    <value>Kioskplus yeniden başlatılmak zorunda! Devam etmek için lütfen 'Tamam' a basın.</value>
+  </data>
+  <data name="blackVerloren" xml:space="preserve">
+    <value>Kaybettiniz</value>
+  </data>
+  <data name="infoVoip" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="blackStehen" xml:space="preserve">
+    <value>Dur</value>
+  </data>
+  <data name="errorEmailService" xml:space="preserve">
+    <value>Email-Servisi aktif değil</value>
+  </data>
+  <data name="sipError31" xml:space="preserve">
+    <value>Telefon bağlantısında hata</value>
+  </data>
+  <data name="mpErrorFound" xml:space="preserve">
+    <value>Bozuk para aleti bulanamadı.Lütfen Ayarlarınızı kontrol ediniz.</value>
+  </data>
+  <data name="infoIkunden" xml:space="preserve">
+    <value>Kullanıcı hesapları</value>
+  </data>
+  <data name="fillinstance" xml:space="preserve">
+    <value>Bileşenleri doldurunuz</value>
+  </data>
+  <data name="checkID" xml:space="preserve">
+    <value>Kiosk-ID Kontrol ediliyor...</value>
+  </data>
+  <data name="freigabeTerminal" xml:space="preserve">
+    <value>Bilgisayar açılıyor...</value>
+  </data>
+  <data name="sipErrorNoDefinePreis" xml:space="preserve">
+    <value>Fiyat tanımlanmamış (YTL)</value>
+  </data>
+  <data name="sipErrorTelNr" xml:space="preserve">
+    <value>Lütfen geçerli bir Telefonnumarası girin!</value>
+  </data>
+  <data name="aufladenMsg" xml:space="preserve">
+    <value>Bilgiler kontrol ediliyor....</value>
+  </data>
+  <data name="sipError14" xml:space="preserve">
+    <value>Mikrofon mevcut değil yada başka uygulamada kullanılıyor</value>
+  </data>
+  <data name="errorDruckenGuthaben" xml:space="preserve">
+    <value>Kontörünüz yeterli değil. Lütfen Kontör yükleyiniz!</value>
+  </data>
+  <data name="sipError35" xml:space="preserve">
+    <value>wav uzantılı dosyanın okunmasında hata oluştu</value>
+  </data>
+  <data name="errorKioskIDorPwd" xml:space="preserve">
+    <value>Geçersiz KIOSK-ID yada geçersiz Şifre !</value>
+  </data>
+  <data name="errorVorname" xml:space="preserve">
+    <value>Lütfen Adınızı girin !</value>
+  </data>
+  <data name="infoMP" xml:space="preserve">
+    <value>Bozuk para aleti</value>
+  </data>
+  <data name="blackEinsatz" xml:space="preserve">
+    <value>Sizin Bahsiniz: {0}</value>
+  </data>
+  <data name="onlineUpd" xml:space="preserve">
+    <value>Online-Update (Adım &gt;&gt; {0} &lt;&lt; )</value>
+  </data>
+  <data name="errorInvalidID" xml:space="preserve">
+    <value>Geçersiz KIOSK-ID </value>
+  </data>
+  <data name="menu03" xml:space="preserve">
+    <value>Oturumu kapat</value>
+  </data>
+  <data name="btnBeenden" xml:space="preserve">
+    <value>Bitir</value>
+  </data>
+  <data name="checkSperrSeite" xml:space="preserve">
+    <value>Ana sayfa kontrol ediliyor</value>
+  </data>
+  <data name="errorVorwahlEingabe" xml:space="preserve">
+    <value>Lütfen Kod Numarasını giriniz!</value>
+  </data>
+  <data name="sipError10" xml:space="preserve">
+    <value>Kayıtlı değilsiniz.Lütfen tercih tuşunu harekete geçirin</value>
+  </data>
+  <data name="blackKVerloren" xml:space="preserve">
+    <value>Kaybettiniz</value>
+  </data>
+  <data name="bittewarten" xml:space="preserve">
+    <value>Lütfen bekleyin. . .</value>
+  </data>
+  <data name="sipCommError" xml:space="preserve">
+    <value>SIP bağlantı portu açılamıyor.</value>
+  </data>
+  <data name="msgPCNeuStart" xml:space="preserve">
+    <value>Bütün bilgilerin güncellenebilmesi için bilgisayar yeniden başlatılıyor! {0}Devam etmek için lütfen 'Tamam' a basın.</value>
+  </data>
+  <data name="blackDoppeln" xml:space="preserve">
+    <value>İki katı</value>
+  </data>
+  <data name="infoErrorEnde" xml:space="preserve">
+    <value>Hata {0}</value>
+  </data>
+  <data name="closeApp" xml:space="preserve">
+    <value>Kioskplus`u bitir</value>
+  </data>
+  <data name="sipErrorDaten" xml:space="preserve">
+    <value>Geçersiz bağlantı bilgileri</value>
+  </data>
+  <data name="readProtectOfMinor" xml:space="preserve">
+    <value>Gençleri koruma programı ayarları ...</value>
+  </data>
+  <data name="blockedID" xml:space="preserve">
+    <value>Bu KIOSK-ID kilitli!</value>
+  </data>
+  <data name="objLaden" xml:space="preserve">
+    <value>Bileşenler yükleniyor...</value>
+  </data>
+  <data name="smsLandListe" xml:space="preserve">
+    <value>Hazır değil!!</value>
+  </data>
+  <data name="sipError22" xml:space="preserve">
+    <value>Bileşenlerde hata</value>
+  </data>
+  <data name="readKC" xml:space="preserve">
+    <value>Müşteri Merkezi bilgileri okunuyor..</value>
+  </data>
+  <data name="blackMaxEinsatzUeber" xml:space="preserve">
+    <value>Max. Bahisi aşıyor</value>
+  </data>
+  <data name="successConnect" xml:space="preserve">
+    <value>Bağlantı başarılı</value>
+  </data>
+  <data name="successEmail" xml:space="preserve">
+    <value>Email başarıyla yollandı !</value>
+  </data>
+  <data name="blackSplitten" xml:space="preserve">
+    <value>Böl</value>
+  </data>
+  <data name="sipNoAllow" xml:space="preserve">
+    <value>Telefon aktif değil</value>
+  </data>
+  <data name="sipError21" xml:space="preserve">
+    <value>*.wav uzantılı dosya açılamadı</value>
+  </data>
+  <data name="successSMS" xml:space="preserve">
+    <value>SMS başarıyla yollandı.</value>
+  </data>
+  <data name="blackDoppelnError" xml:space="preserve">
+    <value>Maalesef  Bahsi ikiye katlayamazsınız ,çünkü Kontörünüz yeterli değil ! Lütfen Para atınız.</value>
+  </data>
+  <data name="menu06" xml:space="preserve">
+    <value>Blackjack</value>
+  </data>
+  <data name="successEnde" xml:space="preserve">
+    <value>Hazır !</value>
+  </data>
+  <data name="checkFreigabe" xml:space="preserve">
+    <value>Serbest bırakılıyor...</value>
+  </data>
+  <data name="infoDeactive" xml:space="preserve">
+    <value>{0} | aktif değil</value>
+  </data>
+  <data name="errorName" xml:space="preserve">
+    <value>Lütfen İsminizi girin!</value>
+  </data>
+  <data name="errorNoNachricht" xml:space="preserve">
+    <value>Lütfen Mesajınızı yazınız!</value>
+  </data>
+  <data name="sucheInternet" xml:space="preserve">
+    <value>İnternet bağlantısı aranıyor...</value>
+  </data>
+  <data name="errorPreis" xml:space="preserve">
+    <value>Lütfen Fiyatı girin!</value>
+  </data>
+  <data name="sipCallingNumber" xml:space="preserve">
+    <value>Numara aranıyor. . .</value>
+  </data>
+  <data name="errorPwdAgain" xml:space="preserve">
+    <value>Lütfen Şifre-Tekrar` ını  düzeltiniz!</value>
+  </data>
+  <data name="sipErrorGuthaben" xml:space="preserve">
+    <value>Kontörünüz bitmek üzere!</value>
+  </data>
+  <data name="readKCPreis" xml:space="preserve">
+    <value>Müşteri Merkezi fiyatları okunuyor...</value>
+  </data>
+  <data name="checkData" xml:space="preserve">
+    <value>Bilgiler kontrol ediliyor....</value>
+  </data>
+  <data name="blackUnentschieden" xml:space="preserve">
+    <value>Berabere</value>
+  </data>
+  <data name="blackNehmen" xml:space="preserve">
+    <value>Kabul et</value>
+  </data>
+  <data name="sipError19" xml:space="preserve">
+    <value>Hopörlör ses ayarlarını desteklemiyor</value>
+  </data>
+  <data name="sipError27" xml:space="preserve">
+    <value>Telefon bağlantısında hata</value>
+  </data>
+  <data name="sipError29" xml:space="preserve">
+    <value>Telefon bağlantısında hata</value>
+  </data>
+  <data name="proSMSKostet" xml:space="preserve">
+    <value>Bir SMS`in fiyatı {0} dakika (={1}  {2})</value>
+  </data>
+  <data name="sipError28" xml:space="preserve">
+    <value>Telefon bağlantısında hata</value>
+  </data>
+  <data name="infoActive" xml:space="preserve">
+    <value>{0} | aktif</value>
+  </data>
+  <data name="successCheck" xml:space="preserve">
+    <value>Kontrol başarılı</value>
+  </data>
+  <data name="successSaveKD" xml:space="preserve">
+    <value>Müşteri bilgileri başarıyla kaydedildi</value>
+  </data>
+  <data name="sipCallingEnde" xml:space="preserve">
+    <value>Görüşme bitti. . .</value>
+  </data>
+  <data name="dlgFileTitle" xml:space="preserve">
+    <value>Lütfen bir dosya seçiniz</value>
+  </data>
+  <data name="sipError36" xml:space="preserve">
+    <value>wav uzantılı dosyanın yazımında hata oluştu</value>
+  </data>
+  <data name="sipError33" xml:space="preserve">
+    <value>Telefon bağlantısında hata</value>
+  </data>
+  <data name="sipKontoGuthaben" xml:space="preserve">
+    <value>Krediniz bitmiştir.Lütfen doldurun</value>
+  </data>
+  <data name="infoSuccessEnde" xml:space="preserve">
+    <value>Başarıyla bitirildi</value>
+  </data>
+  <data name="sipSuccessEnde" xml:space="preserve">
+    <value>Başarıyla bitirildi</value>
+  </data>
+  <data name="sipErrorPort" xml:space="preserve">
+    <value>Bağlantı için boş bir Port mevcut değil.</value>
+  </data>
+  <data name="sipError32" xml:space="preserve">
+    <value>Telefon bağlantısında hata</value>
+  </data>
+  <data name="errorNickname" xml:space="preserve">
+    <value>Lütfen bir Kullanıcı Adı ( Nick ) girin!</value>
+  </data>
+  <data name="sipError26" xml:space="preserve">
+    <value>Telefon bağlantısında hata</value>
+  </data>
+  <data name="last1Minuten" xml:space="preserve">
+    <value>Birkaç saniye içinde kullanmakta olduğun Bilgisayarın  </value>
+  </data>
+  <data name="last2Minuten" xml:space="preserve">
+    <value>Kullanmakta olduğun Bilgisayar kapatılacaktır.Lütfen kendini hazırla  119 . . . . 117 . . . . 115</value>
+  </data>
+  <data name="last3Minuten" xml:space="preserve">
+    <value>zamanın daralıyor.</value>
+  </data>
+  <data name="last4Minuten" xml:space="preserve">
+    <value>daha sonra Bilgisayarın kapatılacaktır.</value>
+  </data>
+  <data name="last5Minuten" xml:space="preserve">
+    <value>daha sonra Bilgisayarın kapatılacaktır.Lütfen vaktinde zamanını uzatmayı unutma.</value>
+  </data>
+  <data name="lastMinutenNoch" xml:space="preserve">
+    <value>Sadece  {0} dakikan kaldı. . .</value>
+  </data>
+  <data name="deaktivKontoAnlegen" xml:space="preserve">
+    <value>Yeni hesap oluşturma aktif değil.</value>
+  </data>
+  <data name="deaktivKontoAufladen" xml:space="preserve">
+    <value>Kontör yükleme aktif değil.</value>
+  </data>
+  <data name="errorMP" xml:space="preserve">
+    <value>Lütfen bir Bozuk Para Aleti seçiniz yada 'Com-Port'u  'KAPALI ' duruma getiriniz.</value>
+  </data>
+  <data name="errorMPComPort" xml:space="preserve">
+    <value>Lütfen Bozuk Para Aletinin bağlı olduğu bir Com-port seçiniz yada 'Com-Port'u  'KAPALI ' duruma getiriniz.</value>
+  </data>
+  <data name="portAus" xml:space="preserve">
+    <value>Kapalı</value>
+  </data>
+  <data name="allgInternetError" xml:space="preserve">
+    <value>İnternet bağlantınızı kontrol ediniz.</value>
+  </data>
+  <data name="mpFoundFalse" xml:space="preserve">
+    <value>Mevcut Bozuk para aleti desteklenmiyor. Hata Kodu: 00H3F47</value>
+  </data>
+  <data name="errorChooseTelNr" xml:space="preserve">
+    <value>Lütfen geçerli bir telefon numarasi girin!</value>
+  </data>
+  <data name="skin1" xml:space="preserve">
+    <value>Kayıt olmadan bedava arkadaşlarına Email yolla.</value>
+  </data>
+  <data name="skin2" xml:space="preserve">
+    <value>Çok basit. Üç adımda ücretsiz bir konto aç ve geri kalan zamanını istediğin zaman kullan</value>
+  </data>
+  <data name="skin3" xml:space="preserve">
+    <value>Sahip oldugun kontona kredi yüklemek istemez misin? Alacağın kupon bilgilerini burada girmen yeterli!</value>
+  </data>
+  <data name="skin4" xml:space="preserve">
+    <value>Oldukça rahat, hızlı ve uygun fiyatlara SMS bu terminal den yollayabilirsin</value>
+  </data>
+  <data name="skin5" xml:space="preserve">
+    <value>Hoşcakal {0}, sana iyi günler dilerim. Umarım tekrar gelirsin</value>
+  </data>
+  <data name="skin6" xml:space="preserve">
+    <value>Bu terminal den istediğin her yere oldukça uygun fiyatlara telefon edebilirsin</value>
+  </data>
+  <data name="kpc1" xml:space="preserve">
+    <value>Kullancı adı yada Şifre yanlış</value>
+  </data>
+  <data name="kpc10" xml:space="preserve">
+    <value>Kupon kilitlenmiş !</value>
+  </data>
+  <data name="kpc11" xml:space="preserve">
+    <value>Kupon kullanılmış !</value>
+  </data>
+  <data name="kpc12" xml:space="preserve">
+    <value>geçersiz</value>
+  </data>
+  <data name="kpc13" xml:space="preserve">
+    <value>Kredi 'yüklenebilir Kupon' değil. Sadece bir defalık kullanım mümkün!</value>
+  </data>
+  <data name="kpc14" xml:space="preserve">
+    <value>Yeni Versiyon sadece Register dan sonra kullanılabilir. Lütfen sorularınızı bu adrese yollayınız support@inetplus.de</value>
+  </data>
+  <data name="kpc15" xml:space="preserve">
+    <value>Geçersiz KIOSK-ID yada geçersiz Şifre !</value>
+  </data>
+  <data name="kpc16" xml:space="preserve">
+    <value>Bu KIOSK-ID geçersiz !</value>
+  </data>
+  <data name="kpc17" xml:space="preserve">
+    <value>SMS krediniz yetersiz .</value>
+  </data>
+  <data name="kpc18" xml:space="preserve">
+    <value>Krediniz yetersiz.</value>
+  </data>
+  <data name="kpc19" xml:space="preserve">
+    <value>Bu kullanıcı adı kullanımda. Lütfen başkasını seçin!</value>
+  </data>
+  <data name="kpc2" xml:space="preserve">
+    <value>Kullanıcı oturum açmış durumda </value>
+  </data>
+  <data name="kpc3" xml:space="preserve">
+    <value>Yanlış şifre</value>
+  </data>
+  <data name="kpc4" xml:space="preserve">
+    <value>Konto buraya ait değil</value>
+  </data>
+  <data name="kpc5" xml:space="preserve">
+    <value>Konto kapatılmış</value>
+  </data>
+  <data name="kpc6" xml:space="preserve">
+    <value>Konto silinmiş</value>
+  </data>
+  <data name="kpc7" xml:space="preserve">
+    <value>Kontonuz boş. Lütfen doldurun!</value>
+  </data>
+  <data name="kpc8" xml:space="preserve">
+    <value>Geçersiz yer (Share)!</value>
+  </data>
+  <data name="kpc9" xml:space="preserve">
+    <value>Kontonuz başka yerde açılı !</value>
+  </data>
+  <data name="kpc20" xml:space="preserve">
+    <value> Bir daha ki girilecek yanlış bilgi ile KIOSK-ID kilitlenecektir.</value>
+  </data>
+  <data name="menu07" xml:space="preserve">
+    <value>Fotoğraf yolla</value>
+  </data>
+  <data name="errorWebCam" xml:space="preserve">
+    <value>Webcam bulunamadı</value>
+  </data>
+  <data name="noMoneyInsert" xml:space="preserve">
+    <value>Lütfen para atmayınız! Bilgisayar 5 saniye içerisinde yeniden başlatılıyor!</value>
+  </data>
+  <data name="supportText" xml:space="preserve">
+    <value>Remote bağlantı numarası bulunamadı!</value>
+  </data>
+  <data name="blackMaxEinsatz" xml:space="preserve">
+    <value>Max. dakika: {0}</value>
+  </data>
+  <data name="incompleteInstall" xml:space="preserve">
+    <value>Yükleme de hata oluştu. Lütfen yüklemeyi tekrarlayınız.</value>
+  </data>
+  <data name="newAgent" xml:space="preserve">
+    <value>Merhaba {0} . . .Ben Ajan {1}</value>
+  </data>
+  <data name="zeitZone" xml:space="preserve">
+    <value>Saat dilimi kontrol ediliyor...</value>
+  </data>
+  <data name="preisTitle" xml:space="preserve">
+    <value>Saat-Fiyatı:</value>
+  </data>
+  <data name="errorhobby" xml:space="preserve">
+    <value>İlgi alanınızı seçiniz</value>
+  </data>
+  <data name="cancelLicenceAction" xml:space="preserve">
+    <value>Işleme son verildi.</value>
+  </data>
+  <data name="errorKdNr" xml:space="preserve">
+    <value>Müşteri numaranız yanlış. Lütfen geçerli bir müşteri numarası yazınız.</value>
+  </data>
+  <data name="getfreelicence" xml:space="preserve">
+    <value>Sizin için aşağıdaki Kiosk-ID yi oluşturduk. {0} Bu Kiosk-ID için geçerli şifreniz "inetplus". {1} Kiosk-ID niz: {2}</value>
+  </data>
+  <data name="kpc112" xml:space="preserve">
+    <value>Bulunduğunuz ülkede şu an icin ücretsiz lisans desteği bulunmamaktadır. Ücretli lisans kullanmak ister misiniz?</value>
+  </data>
+  <data name="kpc113" xml:space="preserve">
+    <value>Genel bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.</value>
+  </data>
+  <data name="kpc114" xml:space="preserve">
+    <value>Müşteri numaranız yada şifreniz yanlış. Lütfen bilgilerinizi tekrar giriniz.</value>
+  </data>
+  <data name="menu08" xml:space="preserve">
+    <value>Oyunlar</value>
+  </data>
+  <data name="user_blank" xml:space="preserve">
+    <value>. . .</value>
+  </data>
+  <data name="user_email" xml:space="preserve">
+    <value>Çok hızlı ve kolay e-posta gönderin! ....</value>
+  </data>
+  <data name="user_konto" xml:space="preserve">
+    <value>Bir hesap oluşturun ve kullanıcı adınız ile her zaman giriş yapın. . . .</value>
+  </data>
+  <data name="user_konto_aufladen" xml:space="preserve">
+    <value>Hesabınızı daha sonra kullanmak için fiş / kupon satın alarak mevcut hesabınıza yükleme yapabilirsiniz! . . .</value>
+  </data>
+  <data name="user_phone" xml:space="preserve">
+    <value>Çok hızlı ve ucuz sabit hat veya mobil cihazlar için bir arama yapın! . . .</value>
+  </data>
+  <data name="user_sms" xml:space="preserve">
+    <value>Çok ucuza SMS-Yolla! Çok hızlı, kolay ve cep telefonlarından daha ucuz!</value>
+  </data>
+</root>

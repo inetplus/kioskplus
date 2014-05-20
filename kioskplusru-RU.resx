@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="allgEingabeError" xml:space="preserve">
+    <value> Все что отмечено  *   является обязательным для заполнения.</value>
+  </data>
+  <data name="allgInternetError" xml:space="preserve">
+    <value>Пожалуйста, проверьте соединение с Интернета</value>
+  </data>
+  <data name="aufladenMsg" xml:space="preserve">
+    <value>Данные проверяются ....</value>
+  </data>
+  <data name="billErrorFound" xml:space="preserve">
+    <value>Банкнотоприемник не найден.Пожалуйста, проверьте свои настройки.</value>
+  </data>
+  <data name="billSuccessFound" xml:space="preserve">
+    <value>Банкнотоприемник найден. Пожалуйста, настройте его.</value>
+  </data>
+  <data name="bittewarten" xml:space="preserve">
+    <value>Пожалуйста, подождите. . .</value>
+  </data>
+  <data name="bittewartenSMS" xml:space="preserve">
+    <value>Ваши SMS  отправляються. Подождите ..</value>
+  </data>
+  <data name="blackDoppeln" xml:space="preserve">
+    <value>Удвоить</value>
+  </data>
+  <data name="blackDoppelnError" xml:space="preserve">
+    <value>Удвоить невозможно, {0}, так как вашего кредита не достаточно! {1} Пожалуйста, пополните ваш счёт</value>
+  </data>
+  <data name="blackEinsatz" xml:space="preserve">
+    <value>Ваша ставка: {0}</value>
+  </data>
+  <data name="blackEinsatzDelete" xml:space="preserve">
+    <value>Ставку удалить</value>
+  </data>
+  <data name="blackErrorEinsatz" xml:space="preserve">
+    <value>{0} {1} Введите вашу Ставку</value>
+  </data>
+  <data name="blackGewonnen" xml:space="preserve">
+    <value>Вы выиграли</value>
+  </data>
+  <data name="blackKVerloren" xml:space="preserve">
+    <value>Вы проиграли</value>
+  </data>
+  <data name="blackMaxEinsatz" xml:space="preserve">
+    <value>Максимальная ставка: {0}</value>
+  </data>
+  <data name="blackMaxEinsatzUeber" xml:space="preserve">
+    <value>{0} {1} Максимальная Ставка превышена</value>
+  </data>
+  <data name="blackNehmen" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="blackSplitten" xml:space="preserve">
+    <value>Разделить (split)</value>
+  </data>
+  <data name="blackSplittenError" xml:space="preserve">
+    <value>Разделение (split) невозможено, {0}, так как вашего кредита не достаточно! {1} Пожалуйста, пополните ваш счёт</value>
+  </data>
+  <data name="blackStehen" xml:space="preserve">
+    <value>Остановиться</value>
+  </data>
+  <data name="blackUnentschieden" xml:space="preserve">
+    <value>Ничья</value>
+  </data>
+  <data name="blackVerloren" xml:space="preserve">
+    <value>Вы проиграли</value>
+  </data>
+  <data name="blackVersichern" xml:space="preserve">
+    <value>Вы хотите застраховать?</value>
+  </data>
+  <data name="blackWeiter" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="blockedID" xml:space="preserve">
+    <value>Этот Киоск-ID  заблокирован!</value>
+  </data>
+  <data name="btnBeenden" xml:space="preserve">
+    <value>Закончить</value>
+  </data>
+  <data name="checkData" xml:space="preserve">
+    <value> Данные проверяются ....</value>
+  </data>
+  <data name="checkFreigabe" xml:space="preserve">
+    <value>Проверка лицензии...</value>
+  </data>
+  <data name="checkID" xml:space="preserve">
+    <value>Проверить Киоск-ID ...</value>
+  </data>
+  <data name="checkSperrSeite" xml:space="preserve">
+    <value>Проверка маски</value>
+  </data>
+  <data name="closeApp" xml:space="preserve">
+    <value>Закрыть Киоскплюс  </value>
+  </data>
+  <data name="deaktivKontoAnlegen" xml:space="preserve">
+    <value>Создание учетной записи (счетов) пользователей на этом терминале выключено</value>
+  </data>
+  <data name="deaktivKontoAufladen" xml:space="preserve">
+    <value>Пополнение счетов пользователей на этом терминале выключено</value>
+  </data>
+  <data name="dlgFileExtension" xml:space="preserve">
+    <value>Все файлы | *.*</value>
+  </data>
+  <data name="dlgFileTitle" xml:space="preserve">
+    <value>Пожалуйста, выберите файл из</value>
+  </data>
+  <data name="errorAufladenEingabe" xml:space="preserve">
+    <value>Неправилный набор</value>
+  </data>
+  <data name="errorAufladenInvalidCharachter" xml:space="preserve">
+    <value>Недопустимые символы</value>
+  </data>
+  <data name="errorAufladenNoMinute" xml:space="preserve">
+    <value>Ваше оставшееся время должны быть, по крайней мере {0} мин ....</value>
+  </data>
+  <data name="errorCheckTelNr" xml:space="preserve">
+    <value>Укажите правильный номер телефона!</value>
+  </data>
+  <data name="errorChooseLand" xml:space="preserve">
+    <value>Пожалуйста, выберите страну!</value>
+  </data>
+  <data name="errorChooseTelNr" xml:space="preserve">
+    <value>Пожалуйста, введите номер телефона!</value>
+  </data>
+  <data name="errorDruckenGuthaben" xml:space="preserve">
+    <value>Недостаточно. Пополните ваш счёт!</value>
+  </data>
+  <data name="errorEmail" xml:space="preserve">
+    <value>При отправке электронной почты произошла ошибка</value>
+  </data>
+  <data name="errorEmailAdress" xml:space="preserve">
+    <value>Пожалуйста, введите адрес электронной почты</value>
+  </data>
+  <data name="errorEmailService" xml:space="preserve">
+    <value>Электронная почта в настоящее время выключена</value>
+  </data>
+  <data name="errorFalschPwd" xml:space="preserve">
+    <value>Просим указать Ваш правильный пароль!</value>
+  </data>
+  <data name="errorInValid" xml:space="preserve">
+    <value>Недопустимые символы ({0})</value>
+  </data>
+  <data name="errorInvalidID" xml:space="preserve">
+    <value>Неправильный Киоск-ID</value>
+  </data>
+  <data name="errorInvalidNachricht" xml:space="preserve">
+    <value>Ваше сообщение содержит недопустимые символы (&amp;=')</value>
+  </data>
+  <data name="errorKioskIDorPwd" xml:space="preserve">
+    <value>Неверный Киоск-ID или пароль недействителен!</value>
+  </data>
+  <data name="errorMP" xml:space="preserve">
+    <value>Пожалуйста, выберите монетоприёмник или добавьте "COM-порт" на "Выкл"</value>
+  </data>
+  <data name="errorMPComPort" xml:space="preserve">
+    <value>Пожалуйста, выберите "Com-порт", куда подключен монетоприёмник или добавьте "COM-порт" на "Выкл"</value>
+  </data>
+  <data name="errorName" xml:space="preserve">
+    <value>Пожалуйста, укажите ваше имя!</value>
+  </data>
+  <data name="errorNewPwdEingabe" xml:space="preserve">
+    <value>Пожалуйста, введите новый пароль!</value>
+  </data>
+  <data name="errorNickname" xml:space="preserve">
+    <value>Пожалуйста, введите логин пользователя (ник имя)!</value>
+  </data>
+  <data name="errorNoNachricht" xml:space="preserve">
+    <value>Пожалуйста, напишите ваше сообщение!</value>
+  </data>
+  <data name="errorPreis" xml:space="preserve">
+    <value>Просьба указать цены!</value>
+  </data>
+  <data name="errorPwdAgain" xml:space="preserve">
+    <value>Укажите правильный пароль повторения!</value>
+  </data>
+  <data name="errorPwdEingabe" xml:space="preserve">
+    <value>Введите свой пароль!</value>
+  </data>
+  <data name="errorSmsDeaktiv" xml:space="preserve">
+    <value>Отправка SMS на терминале выключена</value>
+  </data>
+  <data name="errorSMSZeitGuthaben" xml:space="preserve">
+    <value>Недостаточно. Пополните ваш счёт!</value>
+  </data>
+  <data name="errorVorname" xml:space="preserve">
+    <value>Пожалуйста, введите ваше имя!</value>
+  </data>
+  <data name="errorVorwahl" xml:space="preserve">
+    <value>Пожалуйста, исправьте код города!</value>
+  </data>
+  <data name="errorVorwahlEingabe" xml:space="preserve">
+    <value>Пожалуйста, введите код города!</value>
+  </data>
+  <data name="errorWebCam" xml:space="preserve">
+    <value>Webcam не подлючена</value>
+  </data>
+  <data name="fillinstance" xml:space="preserve">
+    <value>Заполните</value>
+  </data>
+  <data name="freigabeDurch" xml:space="preserve">
+    <value>Проверка Лицензии....</value>
+  </data>
+  <data name="freigabePruef" xml:space="preserve">
+    <value>Проверка...</value>
+  </data>
+  <data name="freigabeTerminal" xml:space="preserve">
+    <value>Проверка...</value>
+  </data>
+  <data name="incompleteInstall" xml:space="preserve">
+    <value>Установка не завершена. Повторите установку.</value>
+  </data>
+  <data name="infoActive" xml:space="preserve">
+    <value>{0} |Вкл</value>
+  </data>
+  <data name="infoBill" xml:space="preserve">
+    <value>Банкнотоприемник</value>
+  </data>
+  <data name="infoDeactive" xml:space="preserve">
+    <value>{0} | Выкл</value>
+  </data>
+  <data name="infoErrorEnde" xml:space="preserve">
+    <value>Ошибка {0}</value>
+  </data>
+  <data name="infoGames" xml:space="preserve">
+    <value>Развлечение</value>
+  </data>
+  <data name="infoIkunden" xml:space="preserve">
+    <value>Учетные записи пользователей</value>
+  </data>
+  <data name="infoMP" xml:space="preserve">
+    <value>Монетоприёмник</value>
+  </data>
+  <data name="infoMPBill" xml:space="preserve">
+    <value>Монетоприёмник и банкнотоприемник</value>
+  </data>
+  <data name="infoSMS" xml:space="preserve">
+    <value>SMS-Отправка</value>
+  </data>
+  <data name="infoSuccessEnde" xml:space="preserve">
+    <value>Успешно</value>
+  </data>
+  <data name="infoVoip" xml:space="preserve">
+    <value>Звонить</value>
+  </data>
+  <data name="kpc1" xml:space="preserve">
+    <value>Неправильный пароль или несуществующий логин</value>
+  </data>
+  <data name="kpc10" xml:space="preserve">
+    <value>Купона заблокированн!</value>
+  </data>
+  <data name="kpc11" xml:space="preserve">
+    <value>Купон уже используется!</value>
+  </data>
+  <data name="kpc12" xml:space="preserve">
+    <value>недействительный</value>
+  </data>
+  <data name="kpc13" xml:space="preserve">
+    <value>Не пополняемый купон. Возможен только вход!</value>
+  </data>
+  <data name="kpc14" xml:space="preserve">
+    <value>Новая версия только после обращения в inetplus возможна. Пожалуйста, свяжитесь с нами по адресу support@inetplus.de.</value>
+  </data>
+  <data name="kpc15" xml:space="preserve">
+    <value>Недействительный Киоск-ID или неверный пароль!</value>
+  </data>
+  <data name="kpc16" xml:space="preserve">
+    <value>Этот Киоск-ID заблокирован!</value>
+  </data>
+  <data name="kpc17" xml:space="preserve">
+    <value>SMS контингента недостаточно.</value>
+  </data>
+  <data name="kpc18" xml:space="preserve">
+    <value>Ваш кредит не достаточнен.</value>
+  </data>
+  <data name="kpc19" xml:space="preserve">
+    <value>Логин уже используеться другим пользователем.</value>
+  </data>
+  <data name="kpc2" xml:space="preserve">
+    <value>Пользователь уже зарегистрирован</value>
+  </data>
+  <data name="kpc20" xml:space="preserve">
+    <value>Последняя попытка, при неправильном  вводе  Киоск-ID будет заблокирован!</value>
+  </data>
+  <data name="kpc3" xml:space="preserve">
+    <value>неверный пароль</value>
+  </data>
+  <data name="kpc4" xml:space="preserve">
+    <value>недействительное местоположение</value>
+  </data>
+  <data name="kpc5" xml:space="preserve">
+    <value>учетная запись пользователя(счёт) заблокирована</value>
+  </data>
+  <data name="kpc6" xml:space="preserve">
+    <value>учетная запись пользователя(счёт) была удалена</value>
+  </data>
+  <data name="kpc7" xml:space="preserve">
+    <value>Счёт пуст. Для пополнения счёта опустите монету в монетоприёмник и войдите на вашу учетную запись пользователя(счёт)</value>
+  </data>
+  <data name="kpc8" xml:space="preserve">
+    <value>недействительное местоположение(Доля)!</value>
+  </data>
+  <data name="kpc9" xml:space="preserve">
+    <value>Вы уже вошли в систему!</value>
+  </data>
+  <data name="last1Minuten" xml:space="preserve">
+    <value>Через несколько секунд, Ваш терминал</value>
+  </data>
+  <data name="last2Minuten" xml:space="preserve">
+    <value>Ваш терминал будет заблокирован. Пожалуйста, будьте готовы против 119. . 177. . 115</value>
+  </data>
+  <data name="last3Minuten" xml:space="preserve">
+    <value>Это просто</value>
+  </data>
+  <data name="last4Minuten" xml:space="preserve">
+    <value>тогда ваш терминал заблокируется.</value>
+  </data>
+  <data name="last5Minuten" xml:space="preserve">
+    <value>После чего ваш терминал будет заблокирован. Позаботесь о своевременном продление.</value>
+  </data>
+  <data name="lastMinutenNoch" xml:space="preserve">
+    <value>У Вас {0} минут. .</value>
+  </data>
+  <data name="menu01" xml:space="preserve">
+    <value>Поддержка соединения</value>
+  </data>
+  <data name="menu02" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="menu03" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="menu04" xml:space="preserve">
+    <value>замена агента inetplus </value>
+  </data>
+  <data name="menu05" xml:space="preserve">
+    <value>отключение агента inetplus </value>
+  </data>
+  <data name="menu052" xml:space="preserve">
+    <value>включение агента inetplus </value>
+  </data>
+  <data name="menu06" xml:space="preserve">
+    <value>Блэк Джек</value>
+  </data>
+  <data name="menu07" xml:space="preserve">
+    <value>Послать фотографию</value>
+  </data>
+  <data name="mpErrorFound" xml:space="preserve">
+    <value>Монетоприёмник ненайден.Пожалуйста, проверьте настройки</value>
+  </data>
+  <data name="mpErrorFoundII" xml:space="preserve">
+    <value>Нужный монетоприёмник ненайден.Пожалуйста, проверьте настройки</value>
+  </data>
+  <data name="mpFoundFalse" xml:space="preserve">
+    <value>Монетоприёмник не поддерживается. Код ошибки: 00H3F47</value>
+  </data>
+  <data name="mpSuccessFound" xml:space="preserve">
+    <value>Монетоприёмник найден. Пожалуйста, настройте его.</value>
+  </data>
+  <data name="msgAppNeuStart" xml:space="preserve">
+    <value>Киоскплюс  должен быть запущен еще раз! Нажмите кнопку "OK", чтобы продолжить</value>
+  </data>
+  <data name="msgPCNeuStart" xml:space="preserve">
+    <value>Сейчас компьютер перезагрузится, после чего весь спектр функций может быть активирован! {0} Пожалуйста, нажмите "ОК", чтобы продолжить</value>
+  </data>
+  <data name="newAgent" xml:space="preserve">
+    <value>Привет {0}. . . Я агент {1}</value>
+  </data>
+  <data name="noMoneyInsert" xml:space="preserve">
+    <value>Пожалуйста, не опускате монету. перезагрузка через 5 секунд!</value>
+  </data>
+  <data name="objLaden" xml:space="preserve">
+    <value>Объекты загрузить ...</value>
+  </data>
+  <data name="onlineUpd" xml:space="preserve">
+    <value>Online Update (шаг&gt;&gt; {0} &lt;&lt;)</value>
+  </data>
+  <data name="portAus" xml:space="preserve">
+    <value>Выкл</value>
+  </data>
+  <data name="preisTitle" xml:space="preserve">
+    <value>Цена за час:</value>
+  </data>
+  <data name="proSMSKostet" xml:space="preserve">
+    <value>Цена SMS {0} мин (= {1} {2})</value>
+  </data>
+  <data name="readBootProperty" xml:space="preserve">
+    <value>Чтение загрузки настроек ...</value>
+  </data>
+  <data name="readGUID" xml:space="preserve">
+    <value>GUID данные будут импортироваться ...</value>
+  </data>
+  <data name="readKC" xml:space="preserve">
+    <value>Чтение  центра  управления...</value>
+  </data>
+  <data name="readKCPreis" xml:space="preserve">
+    <value>Чтение  цен центра  управления...</value>
+  </data>
+  <data name="readKCPrint" xml:space="preserve">
+    <value>Чтение цен принтера...</value>
+  </data>
+  <data name="readKeyAndPrise" xml:space="preserve">
+    <value>Цены и кнопки чтении ...</value>
+  </data>
+  <data name="readProtectOfMinor" xml:space="preserve">
+    <value>Чтение защите интересов молодежи настройки ...</value>
+  </data>
+  <data name="sipBitteWarten" xml:space="preserve">
+    <value>Пожалуйста, подождите! Соединение устанавливается. . .</value>
+  </data>
+  <data name="sipCallingEnde" xml:space="preserve">
+    <value>Звонок закончился. . .</value>
+  </data>
+  <data name="sipCallingNumber" xml:space="preserve">
+    <value>Номер набирается. . .</value>
+  </data>
+  <data name="sipCommError" xml:space="preserve">
+    <value>SIP коммуникационного порта не может быть открыт.</value>
+  </data>
+  <data name="sipError10" xml:space="preserve">
+    <value>Вы не зарегистрированы. Пожалуйста, нажмите кнопку выборов.</value>
+  </data>
+  <data name="sipError11" xml:space="preserve">
+    <value>Порт сообщения занят</value>
+  </data>
+  <data name="sipError12" xml:space="preserve">
+    <value>Ошибка лицензии</value>
+  </data>
+  <data name="sipError13" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError14" xml:space="preserve">
+    <value>Микрофон не доступен или исползуется другой программой</value>
+  </data>
+  <data name="sipError15" xml:space="preserve">
+    <value>Усилитель звука  не доступен или исползуется другой программой</value>
+  </data>
+  <data name="sipError16" xml:space="preserve">
+    <value>Микрофон не доступен</value>
+  </data>
+  <data name="sipError17" xml:space="preserve">
+    <value>Усилитель звука не доступен</value>
+  </data>
+  <data name="sipError18" xml:space="preserve">
+    <value>Усилитель звука не поддерживает объем настройки</value>
+  </data>
+  <data name="sipError19" xml:space="preserve">
+    <value>Усилитель звука не поддерживает объем настройки</value>
+  </data>
+  <data name="sipError20" xml:space="preserve">
+    <value>Запись не может быть инициализирована</value>
+  </data>
+  <data name="sipError21" xml:space="preserve">
+    <value>Файл из формата *. wav  не может быть открыт</value>
+  </data>
+  <data name="sipError22" xml:space="preserve">
+    <value>Ошибка инициализации</value>
+  </data>
+  <data name="sipError23" xml:space="preserve">
+    <value>Кодек не поддерживается</value>
+  </data>
+  <data name="sipError24" xml:space="preserve">
+    <value>СДП запрос не может быть создано</value>
+  </data>
+  <data name="sipError25" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError26" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError27" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError28" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError29" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError30" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи (занято)</value>
+  </data>
+  <data name="sipError31" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError32" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError33" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError34" xml:space="preserve">
+    <value>Сбой при инициализации телефонной связи</value>
+  </data>
+  <data name="sipError35" xml:space="preserve">
+    <value>Не удалось прочитать файл в формате wav</value>
+  </data>
+  <data name="sipError36" xml:space="preserve">
+    <value>Не удалось записать файл в формате wav</value>
+  </data>
+  <data name="sipError37" xml:space="preserve">
+    <value>неподдерживаемый формат файла</value>
+  </data>
+  <data name="sipErrorDaten" xml:space="preserve">
+    <value>недействительные данные  соединения</value>
+  </data>
+  <data name="sipErrorGuthaben" xml:space="preserve">
+    <value>Телефонный счёт скоро будет исчерпан!</value>
+  </data>
+  <data name="sipErrorInvalidNr" xml:space="preserve">
+    <value>недействительный телефонный номер</value>
+  </data>
+  <data name="sipErrorNoDefinePreis" xml:space="preserve">
+    <value>Цена не определена (EUR)</value>
+  </data>
+  <data name="sipErrorNoDefineWaehrung" xml:space="preserve">
+    <value>Цена не определена (валюта)</value>
+  </data>
+  <data name="sipErrorNoGuthaben" xml:space="preserve">
+    <value>Телефонный счёт исчерпан!</value>
+  </data>
+  <data name="sipErrorPort" xml:space="preserve">
+    <value>Невозможно, найти свободный порт для коммуникации.</value>
+  </data>
+  <data name="sipErrorTelNr" xml:space="preserve">
+    <value>Пожалуйста, введите действующий номер телефона</value>
+  </data>
+  <data name="sipKontoGuthaben" xml:space="preserve">
+    <value>Пустой телефонный счёт,пополнение  возможно в центре  управления</value>
+  </data>
+  <data name="sipNoAllow" xml:space="preserve">
+    <value>Телефония на этом терминале выключена.</value>
+  </data>
+  <data name="sipStartCalling" xml:space="preserve">
+    <value>Разговор начался!</value>
+  </data>
+  <data name="sipSuccessEnde" xml:space="preserve">
+    <value>Успешно закончился</value>
+  </data>
+  <data name="sipZeitGuthaben" xml:space="preserve">
+    <value>Вашего кредита не достаточно!  Пожалуйста, пополните ваш счёт.</value>
+  </data>
+  <data name="skin1" xml:space="preserve">
+    <value>Фантастика, бесплатно отправлять электронную почту без регистрации. Отправить электронную почту вашим друзьям</value>
+  </data>
+  <data name="skin2" xml:space="preserve">
+    <value>Просто мечта, создать в три этапа учетную запись пользователя, и использовать оставшееся время в следующий раз</value>
+  </data>
+  <data name="skin3" xml:space="preserve">
+    <value>Пополни существующую учетную запись деньгами или  купоном</value>
+  </data>
+  <data name="skin4" xml:space="preserve">
+    <value>Просто класс! Вы можете отправить SMS с этого терминала. Сообщение удобнее и дешевле, чем с мобилы</value>
+  </data>
+  <data name="skin5" xml:space="preserve">
+    <value>Вы хотите покинуть нас? Я желаю вам приятного дня. {0} Посетите нас снова</value>
+  </data>
+  <data name="skin6" xml:space="preserve">
+    <value>Вы можете дешево звонить на стационарные, мобильные и зарубежные телефоны</value>
+  </data>
+  <data name="smsKonto" xml:space="preserve">
+    <value>Ещё может быть {0} SMS отправлено </value>
+  </data>
+  <data name="smsLandListe" xml:space="preserve">
+    <value>ещё нет!</value>
+  </data>
+  <data name="successCheck" xml:space="preserve">
+    <value>Проверка успешна</value>
+  </data>
+  <data name="successConnect" xml:space="preserve">
+    <value>Успешно подключен</value>
+  </data>
+  <data name="successEmail" xml:space="preserve">
+    <value>Електронная почта успешно отправлена!</value>
+  </data>
+  <data name="successEnde" xml:space="preserve">
+    <value>Успешно завершена!</value>
+  </data>
+  <data name="successSaveKD" xml:space="preserve">
+    <value>Данные клиента успешно сохранены</value>
+  </data>
+  <data name="successSMS" xml:space="preserve">
+    <value>Ваше текстовое сообщение успешно отправлено</value>
+  </data>
+  <data name="sucheInternet" xml:space="preserve">
+    <value>Поиск интернетсоединения...</value>
+  </data>
+  <data name="supportText" xml:space="preserve">
+    <value>не доступна поддержка ID </value>
+  </data>
+  <data name="zeitZone" xml:space="preserve">
+    <value>Проверка временного пояса...</value>
+  </data>
+  <data name="errorhobby" xml:space="preserve">
+    <value>Пожалуйста, выберите ваши интересы</value>
+  </data>
+  <data name="cancelLicenceAction" xml:space="preserve">
+    <value>Действие было остановлено.</value>
+  </data>
+  <data name="errorKdNr" xml:space="preserve">
+    <value>Ваш номер клиента это неправильно. Пожалуйста, введите Ваш номер клиента.</value>
+  </data>
+  <data name="getfreelicence" xml:space="preserve">
+    <value>. У нас создан для следующих резервных ИД {0} пароль для этого резервный ИД "inetplus" {1} Ваш киоск ID. {2}</value>
+  </data>
+  <data name="kpc112" xml:space="preserve">
+    <value>В вашей стране нет свободных лицензий поддерживаются. Хотели бы Вы использовать платные лицензии?</value>
+  </data>
+  <data name="kpc113" xml:space="preserve">
+    <value>Общая ошибка. Пожалуйста, повторите попытку позже.</value>
+  </data>
+  <data name="kpc114" xml:space="preserve">
+    <value>Ваш номер клиента это неправильно. Пожалуйста, введите Ваш номер клиента Ваш номер клиента это неправильно. Пожалуйста, введите Ваш номер клиента снова.</value>
+  </data>
+  <data name="menu08" xml:space="preserve">
+    <value>матч</value>
+  </data>
+  <data name="user_blank" xml:space="preserve">
+    <value>. . .</value>
+  </data>
+  <data name="user_email" xml:space="preserve">
+    <value>Отправить по электронной почте очень быстро и просто !....</value>
+  </data>
+  <data name="user_konto" xml:space="preserve">
+    <value>Круто! Вы можете зарегистрироваться и войти в систему под своим именем пользователя каждый раз. . . .</value>
+  </data>
+  <data name="user_konto_aufladen" xml:space="preserve">
+    <value>загрузить существующую учетную запись, чтобы использовать его позже или купить ваучер / купон, чтобы загрузить свой ​​счет! . . .</value>
+  </data>
+  <data name="user_phone" xml:space="preserve">
+    <value>Выполнение вызова на стационарные или мобильные устройства очень быстро и дешевле! . . .</value>
+  </data>
+  <data name="user_sms" xml:space="preserve">
+    <value>Очень дешевые SMS-передачи! Очень просто, быстро и дешевле, чем мобильное устройство!</value>
+  </data>
+</root>

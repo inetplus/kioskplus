@@ -1,0 +1,1380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="comboLand.Items" xml:space="preserve">
+    <value>Germany (+49)</value>
+  </data>
+  <data name="comboLand.Items1" xml:space="preserve">
+    <value>Österreich (+43)</value>
+  </data>
+  <data name="comboLand.Items2" xml:space="preserve">
+    <value>Schweiz (+41)</value>
+  </data>
+  <data name="comboLand.Items3" xml:space="preserve">
+    <value>Afghanistan (+93)</value>
+  </data>
+  <data name="comboLand.Items4" xml:space="preserve">
+    <value>Ägypten (+20)</value>
+  </data>
+  <data name="comboLand.Items5" xml:space="preserve">
+    <value>Albanien (+355)</value>
+  </data>
+  <data name="comboLand.Items6" xml:space="preserve">
+    <value>Algerien (+213)</value>
+  </data>
+  <data name="comboLand.Items7" xml:space="preserve">
+    <value>Andorra (+376)</value>
+  </data>
+  <data name="comboLand.Items8" xml:space="preserve">
+    <value>Angola (+244)</value>
+  </data>
+  <data name="comboLand.Items9" xml:space="preserve">
+    <value>Anguilla (+1264)</value>
+  </data>
+  <data name="comboLand.Items10" xml:space="preserve">
+    <value>Antigua (+1268)</value>
+  </data>
+  <data name="comboLand.Items11" xml:space="preserve">
+    <value>Antillen (+599)</value>
+  </data>
+  <data name="comboLand.Items12" xml:space="preserve">
+    <value>Äquat.-Guinea (+240)</value>
+  </data>
+  <data name="comboLand.Items13" xml:space="preserve">
+    <value>Argentinien (+54)</value>
+  </data>
+  <data name="comboLand.Items14" xml:space="preserve">
+    <value>Armenien (+374)</value>
+  </data>
+  <data name="comboLand.Items15" xml:space="preserve">
+    <value>Aruba (+297)</value>
+  </data>
+  <data name="comboLand.Items16" xml:space="preserve">
+    <value>Ascension (+247)</value>
+  </data>
+  <data name="comboLand.Items17" xml:space="preserve">
+    <value>Aserbaidschan (+994)</value>
+  </data>
+  <data name="comboLand.Items18" xml:space="preserve">
+    <value>Äthiopien (+251)</value>
+  </data>
+  <data name="comboLand.Items19" xml:space="preserve">
+    <value>Australien (+61)</value>
+  </data>
+  <data name="comboLand.Items20" xml:space="preserve">
+    <value>Azoren (+351)</value>
+  </data>
+  <data name="comboLand.Items21" xml:space="preserve">
+    <value>Amerik. Samoa (+684)</value>
+  </data>
+  <data name="comboLand.Items22" xml:space="preserve">
+    <value>Am. Jungfernins. (+1340)</value>
+  </data>
+  <data name="comboLand.Items23" xml:space="preserve">
+    <value>Antark.Aus Territ. (+672)</value>
+  </data>
+  <data name="comboLand.Items24" xml:space="preserve">
+    <value>Atlant. Oz.(Ost) (+871)</value>
+  </data>
+  <data name="comboLand.Items25" xml:space="preserve">
+    <value>Atlant. Oz.(West) (+874)</value>
+  </data>
+  <data name="comboLand.Items26" xml:space="preserve">
+    <value>Bahamas (+1242)</value>
+  </data>
+  <data name="comboLand.Items27" xml:space="preserve">
+    <value>Bahrain (+973)</value>
+  </data>
+  <data name="comboLand.Items28" xml:space="preserve">
+    <value>Bangladesch (+880)</value>
+  </data>
+  <data name="comboLand.Items29" xml:space="preserve">
+    <value>Barbados (+1246)</value>
+  </data>
+  <data name="comboLand.Items30" xml:space="preserve">
+    <value>Belarus (Weißruss.)(+375)</value>
+  </data>
+  <data name="comboLand.Items31" xml:space="preserve">
+    <value>Belgien (+32)</value>
+  </data>
+  <data name="comboLand.Items32" xml:space="preserve">
+    <value>Belize (+501)</value>
+  </data>
+  <data name="comboLand.Items33" xml:space="preserve">
+    <value>Benin (+229)</value>
+  </data>
+  <data name="comboLand.Items34" xml:space="preserve">
+    <value>Bermuda (+1441)</value>
+  </data>
+  <data name="comboLand.Items35" xml:space="preserve">
+    <value>Bhutan (+975)</value>
+  </data>
+  <data name="comboLand.Items36" xml:space="preserve">
+    <value>Bolivien (+591)</value>
+  </data>
+  <data name="comboLand.Items37" xml:space="preserve">
+    <value>Bosnien (+387)</value>
+  </data>
+  <data name="comboLand.Items38" xml:space="preserve">
+    <value>Botswana (+267)</value>
+  </data>
+  <data name="comboLand.Items39" xml:space="preserve">
+    <value>Brasilien (+55)</value>
+  </data>
+  <data name="comboLand.Items40" xml:space="preserve">
+    <value>Brit.Jungfernin. (+1284)</value>
+  </data>
+  <data name="comboLand.Items41" xml:space="preserve">
+    <value>Brunei (+673)</value>
+  </data>
+  <data name="comboLand.Items42" xml:space="preserve">
+    <value>Bulgarien (+359)</value>
+  </data>
+  <data name="comboLand.Items43" xml:space="preserve">
+    <value>Burkina Faso (+226)</value>
+  </data>
+  <data name="comboLand.Items44" xml:space="preserve">
+    <value>Burma (+95)</value>
+  </data>
+  <data name="comboLand.Items45" xml:space="preserve">
+    <value>Burundi (+257)</value>
+  </data>
+  <data name="comboLand.Items46" xml:space="preserve">
+    <value>Casey (+67212)</value>
+  </data>
+  <data name="comboLand.Items47" xml:space="preserve">
+    <value>Caymaninseln (+1345)</value>
+  </data>
+  <data name="comboLand.Items48" xml:space="preserve">
+    <value>Chile (+56)</value>
+  </data>
+  <data name="comboLand.Items49" xml:space="preserve">
+    <value>China (Taiwan)(+886)</value>
+  </data>
+  <data name="comboLand.Items50" xml:space="preserve">
+    <value>China (VR)(+86)</value>
+  </data>
+  <data name="comboLand.Items51" xml:space="preserve">
+    <value>Cocos Island (+672)</value>
+  </data>
+  <data name="comboLand.Items52" xml:space="preserve">
+    <value>Cook-Inseln (+682)</value>
+  </data>
+  <data name="comboLand.Items53" xml:space="preserve">
+    <value>Costa Rica (+506)</value>
+  </data>
+  <data name="comboLand.Items54" xml:space="preserve">
+    <value>Dänemark (+45)</value>
+  </data>
+  <data name="comboLand.Items55" xml:space="preserve">
+    <value>Davis(Antark.)(+67210)</value>
+  </data>
+  <data name="comboLand.Items56" xml:space="preserve">
+    <value>Djibouti (+253)</value>
+  </data>
+  <data name="comboLand.Items57" xml:space="preserve">
+    <value>Dominica (+1767)</value>
+  </data>
+  <data name="comboLand.Items58" xml:space="preserve">
+    <value>Dom. Republik (+1809)</value>
+  </data>
+  <data name="comboLand.Items59" xml:space="preserve">
+    <value>Dschibuti (+253)</value>
+  </data>
+  <data name="comboLand.Items60" xml:space="preserve">
+    <value>Ecuador (+593)</value>
+  </data>
+  <data name="comboLand.Items61" xml:space="preserve">
+    <value>El Salvador (+503)</value>
+  </data>
+  <data name="comboLand.Items62" xml:space="preserve">
+    <value>Elfenbeinküste (+225)</value>
+  </data>
+  <data name="comboLand.Items63" xml:space="preserve">
+    <value>Eritrea (+291)</value>
+  </data>
+  <data name="comboLand.Items64" xml:space="preserve">
+    <value>Estland (+372)</value>
+  </data>
+  <data name="comboLand.Items65" xml:space="preserve">
+    <value>Falklandinseln (+500)</value>
+  </data>
+  <data name="comboLand.Items66" xml:space="preserve">
+    <value>Färöer (+298)</value>
+  </data>
+  <data name="comboLand.Items67" xml:space="preserve">
+    <value>Fidschi (+679)</value>
+  </data>
+  <data name="comboLand.Items68" xml:space="preserve">
+    <value>Finnland (+358)</value>
+  </data>
+  <data name="comboLand.Items69" xml:space="preserve">
+    <value>Franz.-Guayana (+594)</value>
+  </data>
+  <data name="comboLand.Items70" xml:space="preserve">
+    <value>Franz.-Polynesien (+689)</value>
+  </data>
+  <data name="comboLand.Items71" xml:space="preserve">
+    <value>Gabun (+241)</value>
+  </data>
+  <data name="comboLand.Items72" xml:space="preserve">
+    <value>Gambia (+220)</value>
+  </data>
+  <data name="comboLand.Items73" xml:space="preserve">
+    <value>Georgien (+995)</value>
+  </data>
+  <data name="comboLand.Items74" xml:space="preserve">
+    <value>Ghana (+233)</value>
+  </data>
+  <data name="comboLand.Items75" xml:space="preserve">
+    <value>Gibraltar (+350)</value>
+  </data>
+  <data name="comboLand.Items76" xml:space="preserve">
+    <value>Grenada (+1473)</value>
+  </data>
+  <data name="comboLand.Items77" xml:space="preserve">
+    <value>Griechenland (+30)</value>
+  </data>
+  <data name="comboLand.Items78" xml:space="preserve">
+    <value>Grönland (+299)</value>
+  </data>
+  <data name="comboLand.Items79" xml:space="preserve">
+    <value>Großbritannien (+44)</value>
+  </data>
+  <data name="comboLand.Items80" xml:space="preserve">
+    <value>Guadeloupe (+590)</value>
+  </data>
+  <data name="comboLand.Items81" xml:space="preserve">
+    <value>Guam (+671)</value>
+  </data>
+  <data name="comboLand.Items82" xml:space="preserve">
+    <value>Guatemala (+502)</value>
+  </data>
+  <data name="comboLand.Items83" xml:space="preserve">
+    <value>Guernsey (GB)(+44)</value>
+  </data>
+  <data name="comboLand.Items84" xml:space="preserve">
+    <value>Guinea (+224)</value>
+  </data>
+  <data name="comboLand.Items85" xml:space="preserve">
+    <value>Guinea-Bissau (+245)</value>
+  </data>
+  <data name="comboLand.Items86" xml:space="preserve">
+    <value>Guyana (+592)</value>
+  </data>
+  <data name="comboLand.Items87" xml:space="preserve">
+    <value>Haiti (+509)</value>
+  </data>
+  <data name="comboLand.Items88" xml:space="preserve">
+    <value>Honduras (+504)</value>
+  </data>
+  <data name="comboLand.Items89" xml:space="preserve">
+    <value>Indien (+91)</value>
+  </data>
+  <data name="comboLand.Items90" xml:space="preserve">
+    <value>Indischer Ozean (+873)</value>
+  </data>
+  <data name="comboLand.Items91" xml:space="preserve">
+    <value>Indonesien (+62)</value>
+  </data>
+  <data name="comboLand.Items92" xml:space="preserve">
+    <value>Insel Man (GB) (+44)</value>
+  </data>
+  <data name="comboLand.Items93" xml:space="preserve">
+    <value>Irak (+964)</value>
+  </data>
+  <data name="comboLand.Items94" xml:space="preserve">
+    <value>Iran (+98)</value>
+  </data>
+  <data name="comboLand.Items95" xml:space="preserve">
+    <value>Irland (+353)</value>
+  </data>
+  <data name="comboLand.Items96" xml:space="preserve">
+    <value>Island (+354)</value>
+  </data>
+  <data name="comboLand.Items97" xml:space="preserve">
+    <value>Israel (+972)</value>
+  </data>
+  <data name="comboLand.Items98" xml:space="preserve">
+    <value>Italien (+39)</value>
+  </data>
+  <data name="comboLand.Items99" xml:space="preserve">
+    <value>Jamaika (+1876)</value>
+  </data>
+  <data name="comboLand.Items100" xml:space="preserve">
+    <value>Jemen (+967)</value>
+  </data>
+  <data name="comboLand.Items101" xml:space="preserve">
+    <value>Jersey (GB) (+44)</value>
+  </data>
+  <data name="comboLand.Items102" xml:space="preserve">
+    <value>Jordanien (+962)</value>
+  </data>
+  <data name="comboLand.Items103" xml:space="preserve">
+    <value>Jug. Montenegro (+381)</value>
+  </data>
+  <data name="comboLand.Items104" xml:space="preserve">
+    <value>Jug. Serbien (+381)</value>
+  </data>
+  <data name="comboLand.Items105" xml:space="preserve">
+    <value>Kambodscha (+855)</value>
+  </data>
+  <data name="comboLand.Items106" xml:space="preserve">
+    <value>Kamerun (+237)</value>
+  </data>
+  <data name="comboLand.Items107" xml:space="preserve">
+    <value>Kanada (+1)</value>
+  </data>
+  <data name="comboLand.Items108" xml:space="preserve">
+    <value>Kanalinseln (GB)(+44)</value>
+  </data>
+  <data name="comboLand.Items109" xml:space="preserve">
+    <value>Kap Verde (+238)</value>
+  </data>
+  <data name="comboLand.Items110" xml:space="preserve">
+    <value>Kasachstan (+7)</value>
+  </data>
+  <data name="comboLand.Items111" xml:space="preserve">
+    <value>Katar (+974)</value>
+  </data>
+  <data name="comboLand.Items112" xml:space="preserve">
+    <value>Kenia (+254)</value>
+  </data>
+  <data name="comboLand.Items113" xml:space="preserve">
+    <value>Kirgisistan (+996)</value>
+  </data>
+  <data name="comboLand.Items114" xml:space="preserve">
+    <value>Kiribati (+686)</value>
+  </data>
+  <data name="comboLand.Items115" xml:space="preserve">
+    <value>Kokosins.(AUS) (+6722)</value>
+  </data>
+  <data name="comboLand.Items116" xml:space="preserve">
+    <value>Kolumbien (+57)</value>
+  </data>
+  <data name="comboLand.Items117" xml:space="preserve">
+    <value>Komoren (+269)</value>
+  </data>
+  <data name="comboLand.Items118" xml:space="preserve">
+    <value>Kongo (+242)</value>
+  </data>
+  <data name="comboLand.Items119" xml:space="preserve">
+    <value>Korea (DemRep)(+850)</value>
+  </data>
+  <data name="comboLand.Items120" xml:space="preserve">
+    <value>Korea (Rep)(+82)</value>
+  </data>
+  <data name="comboLand.Items121" xml:space="preserve">
+    <value>Kroatien (+385)</value>
+  </data>
+  <data name="comboLand.Items122" xml:space="preserve">
+    <value>Kuba (+53)</value>
+  </data>
+  <data name="comboLand.Items123" xml:space="preserve">
+    <value>Kuwait (+965)</value>
+  </data>
+  <data name="comboLand.Items124" xml:space="preserve">
+    <value>Laos (+856)</value>
+  </data>
+  <data name="comboLand.Items125" xml:space="preserve">
+    <value>Lesotho (+266)</value>
+  </data>
+  <data name="comboLand.Items126" xml:space="preserve">
+    <value>Lettland (+371)</value>
+  </data>
+  <data name="comboLand.Items127" xml:space="preserve">
+    <value>Libanon (+961)</value>
+  </data>
+  <data name="comboLand.Items128" xml:space="preserve">
+    <value>Liberia (+231)</value>
+  </data>
+  <data name="comboLand.Items129" xml:space="preserve">
+    <value>Libyen (+218)</value>
+  </data>
+  <data name="comboLand.Items130" xml:space="preserve">
+    <value>Liechtenstein (+423)</value>
+  </data>
+  <data name="comboLand.Items131" xml:space="preserve">
+    <value>Litauen (+370)</value>
+  </data>
+  <data name="comboLand.Items132" xml:space="preserve">
+    <value>Luxemburg (+352)</value>
+  </data>
+  <data name="comboLand.Items133" xml:space="preserve">
+    <value>Madagaskar (+261)</value>
+  </data>
+  <data name="comboLand.Items134" xml:space="preserve">
+    <value>Makedonien (+389)</value>
+  </data>
+  <data name="comboLand.Items135" xml:space="preserve">
+    <value>Malawi (+265)</value>
+  </data>
+  <data name="comboLand.Items136" xml:space="preserve">
+    <value>Malaysia (+60)</value>
+  </data>
+  <data name="comboLand.Items137" xml:space="preserve">
+    <value>Malediven (+960)</value>
+  </data>
+  <data name="comboLand.Items138" xml:space="preserve">
+    <value>Mali (+223)</value>
+  </data>
+  <data name="comboLand.Items139" xml:space="preserve">
+    <value>Malta (+356)</value>
+  </data>
+  <data name="comboLand.Items140" xml:space="preserve">
+    <value>Marianen (+670)</value>
+  </data>
+  <data name="comboLand.Items141" xml:space="preserve">
+    <value>Marokko (+212)</value>
+  </data>
+  <data name="comboLand.Items142" xml:space="preserve">
+    <value>Marshallinseln (+692)</value>
+  </data>
+  <data name="comboLand.Items143" xml:space="preserve">
+    <value>Martinique (+596)</value>
+  </data>
+  <data name="comboLand.Items144" xml:space="preserve">
+    <value>Mauretanien (+222)</value>
+  </data>
+  <data name="comboLand.Items145" xml:space="preserve">
+    <value>Mauritius (+230)</value>
+  </data>
+  <data name="comboLand.Items146" xml:space="preserve">
+    <value>Mawson (Antark.)(+67211)</value>
+  </data>
+  <data name="comboLand.Items147" xml:space="preserve">
+    <value>Mayotte (+269)</value>
+  </data>
+  <data name="comboLand.Items148" xml:space="preserve">
+    <value>Mazedonien (+389)</value>
+  </data>
+  <data name="comboLand.Items149" xml:space="preserve">
+    <value>Mikronesien (+691)</value>
+  </data>
+  <data name="comboLand.Items150" xml:space="preserve">
+    <value>Moldawien (+373)</value>
+  </data>
+  <data name="comboLand.Items151" xml:space="preserve">
+    <value>Monaco (+377)</value>
+  </data>
+  <data name="comboLand.Items152" xml:space="preserve">
+    <value>Mongolei (+976)</value>
+  </data>
+  <data name="comboLand.Items153" xml:space="preserve">
+    <value>Montserrat (+1664)</value>
+  </data>
+  <data name="comboLand.Items154" xml:space="preserve">
+    <value>Mosambik (+258)</value>
+  </data>
+  <data name="comboLand.Items155" xml:space="preserve">
+    <value>Myanmar (Birma)(+95)</value>
+  </data>
+  <data name="comboLand.Items156" xml:space="preserve">
+    <value>Namibia (+264)</value>
+  </data>
+  <data name="comboLand.Items157" xml:space="preserve">
+    <value>Nauru (+674)</value>
+  </data>
+  <data name="comboLand.Items158" xml:space="preserve">
+    <value>Nepal (+977)</value>
+  </data>
+  <data name="comboLand.Items159" xml:space="preserve">
+    <value>Neukaledonien (+687)</value>
+  </data>
+  <data name="comboLand.Items160" xml:space="preserve">
+    <value>Neuseeland (+64)</value>
+  </data>
+  <data name="comboLand.Items161" xml:space="preserve">
+    <value>Nicaragua (+505)</value>
+  </data>
+  <data name="comboLand.Items162" xml:space="preserve">
+    <value>Niederlande (+31)</value>
+  </data>
+  <data name="comboLand.Items163" xml:space="preserve">
+    <value>Niger (+227)</value>
+  </data>
+  <data name="comboLand.Items164" xml:space="preserve">
+    <value>Nigeria (+234)</value>
+  </data>
+  <data name="comboLand.Items165" xml:space="preserve">
+    <value>Norfolkinseln(AUS)(+6723)</value>
+  </data>
+  <data name="comboLand.Items166" xml:space="preserve">
+    <value>Norwegen (+47)</value>
+  </data>
+  <data name="comboLand.Items167" xml:space="preserve">
+    <value>Oman (+968)</value>
+  </data>
+  <data name="comboLand.Items168" xml:space="preserve">
+    <value>Pakistan (+92)</value>
+  </data>
+  <data name="comboLand.Items169" xml:space="preserve">
+    <value>Palau (+680)</value>
+  </data>
+  <data name="comboLand.Items170" xml:space="preserve">
+    <value>Panama (+507)</value>
+  </data>
+  <data name="comboLand.Items171" xml:space="preserve">
+    <value>Papua-Neuguinea (+675)</value>
+  </data>
+  <data name="comboLand.Items172" xml:space="preserve">
+    <value>Paraguay (+595)</value>
+  </data>
+  <data name="comboLand.Items173" xml:space="preserve">
+    <value>Pazifischer Ozean (+872)</value>
+  </data>
+  <data name="comboLand.Items174" xml:space="preserve">
+    <value>Peru (+51)</value>
+  </data>
+  <data name="comboLand.Items175" xml:space="preserve">
+    <value>Philippinen (+63)</value>
+  </data>
+  <data name="comboLand.Items176" xml:space="preserve">
+    <value>Pitcain Island (+649)</value>
+  </data>
+  <data name="comboLand.Items177" xml:space="preserve">
+    <value>Polen (+48)</value>
+  </data>
+  <data name="comboLand.Items178" xml:space="preserve">
+    <value>Portugal (+351)</value>
+  </data>
+  <data name="comboLand.Items179" xml:space="preserve">
+    <value>Puerto Rico (+1787)</value>
+  </data>
+  <data name="comboLand.Items180" xml:space="preserve">
+    <value>Qatar (+974)</value>
+  </data>
+  <data name="comboLand.Items181" xml:space="preserve">
+    <value>Réunion (+262)</value>
+  </data>
+  <data name="comboLand.Items182" xml:space="preserve">
+    <value>Ruanda (+250)</value>
+  </data>
+  <data name="comboLand.Items183" xml:space="preserve">
+    <value>Rumänien (+40)</value>
+  </data>
+  <data name="comboLand.Items184" xml:space="preserve">
+    <value>Russland (+7)</value>
+  </data>
+  <data name="comboLand.Items185" xml:space="preserve">
+    <value>Saint Helena (+290)</value>
+  </data>
+  <data name="comboLand.Items186" xml:space="preserve">
+    <value>Saint Kitts (+1869)</value>
+  </data>
+  <data name="comboLand.Items187" xml:space="preserve">
+    <value>Saint Lucia (+1758)</value>
+  </data>
+  <data name="comboLand.Items188" xml:space="preserve">
+    <value>Saint Pierre (+508)</value>
+  </data>
+  <data name="comboLand.Items189" xml:space="preserve">
+    <value>Saint Vincent (+1784)</value>
+  </data>
+  <data name="comboLand.Items190" xml:space="preserve">
+    <value>Salomonen (+677)</value>
+  </data>
+  <data name="comboLand.Items191" xml:space="preserve">
+    <value>Sambia (+260)</value>
+  </data>
+  <data name="comboLand.Items192" xml:space="preserve">
+    <value>Samoa (+685)</value>
+  </data>
+  <data name="comboLand.Items193" xml:space="preserve">
+    <value>San Marino (+378)</value>
+  </data>
+  <data name="comboLand.Items194" xml:space="preserve">
+    <value>Sao Tome (+239)</value>
+  </data>
+  <data name="comboLand.Items195" xml:space="preserve">
+    <value>Saudi-Arabien (+966)</value>
+  </data>
+  <data name="comboLand.Items196" xml:space="preserve">
+    <value>Schweden (+46)</value>
+  </data>
+  <data name="comboLand.Items197" xml:space="preserve">
+    <value>Serbien (+381)</value>
+  </data>
+  <data name="comboLand.Items198" xml:space="preserve">
+    <value>Seyschellen (+248)</value>
+  </data>
+  <data name="comboLand.Items199" xml:space="preserve">
+    <value>Sierra Leone (+232)</value>
+  </data>
+  <data name="comboLand.Items200" xml:space="preserve">
+    <value>Simbabwe (+263)</value>
+  </data>
+  <data name="comboLand.Items201" xml:space="preserve">
+    <value>Singapur (+65)</value>
+  </data>
+  <data name="comboLand.Items202" xml:space="preserve">
+    <value>Slowakei (+421)</value>
+  </data>
+  <data name="comboLand.Items203" xml:space="preserve">
+    <value>Slowenien (+386)</value>
+  </data>
+  <data name="comboLand.Items204" xml:space="preserve">
+    <value>Somalia (+252)</value>
+  </data>
+  <data name="comboLand.Items205" xml:space="preserve">
+    <value>Spanien 0034600 (+34600)</value>
+  </data>
+  <data name="comboLand.Items206" xml:space="preserve">
+    <value>Spanien 0034607 (+34627)</value>
+  </data>
+  <data name="comboLand.Items207" xml:space="preserve">
+    <value>Spanien 0034610 (+34610)</value>
+  </data>
+  <data name="comboLand.Items208" xml:space="preserve">
+    <value>Spanien 0034617 (+34617)</value>
+  </data>
+  <data name="comboLand.Items209" xml:space="preserve">
+    <value>Spanien 0034666 (+34666)</value>
+  </data>
+  <data name="comboLand.Items210" xml:space="preserve">
+    <value>Spanien 0034667 (+34667)</value>
+  </data>
+  <data name="comboLand.Items211" xml:space="preserve">
+    <value>Spanien 0034670 (+34670)</value>
+  </data>
+  <data name="comboLand.Items212" xml:space="preserve">
+    <value>Spanien 0034675 (+34675)</value>
+  </data>
+  <data name="comboLand.Items213" xml:space="preserve">
+    <value>Spanien 0034677 (+34677)</value>
+  </data>
+  <data name="comboLand.Items214" xml:space="preserve">
+    <value>Spanien 0034678 (+34678)</value>
+  </data>
+  <data name="comboLand.Items215" xml:space="preserve">
+    <value>Spanien 0034679 (+34679)</value>
+  </data>
+  <data name="comboLand.Items216" xml:space="preserve">
+    <value>Sri Lanka (+94)</value>
+  </data>
+  <data name="comboLand.Items217" xml:space="preserve">
+    <value>Südafrika (+27)</value>
+  </data>
+  <data name="comboLand.Items218" xml:space="preserve">
+    <value>Sudan (+249)</value>
+  </data>
+  <data name="comboLand.Items219" xml:space="preserve">
+    <value>Suriname (+597)</value>
+  </data>
+  <data name="comboLand.Items220" xml:space="preserve">
+    <value>Swasiland (+268)</value>
+  </data>
+  <data name="comboLand.Items221" xml:space="preserve">
+    <value>Syrien (+963)</value>
+  </data>
+  <data name="comboLand.Items222" xml:space="preserve">
+    <value>Tadjikistan (+7)</value>
+  </data>
+  <data name="comboLand.Items223" xml:space="preserve">
+    <value>Taiwan (+886)</value>
+  </data>
+  <data name="comboLand.Items224" xml:space="preserve">
+    <value>Tansania (+255)</value>
+  </data>
+  <data name="comboLand.Items225" xml:space="preserve">
+    <value>Thailand (+66)</value>
+  </data>
+  <data name="comboLand.Items226" xml:space="preserve">
+    <value>Tobago (+1868)</value>
+  </data>
+  <data name="comboLand.Items227" xml:space="preserve">
+    <value>Togo (+228)</value>
+  </data>
+  <data name="comboLand.Items228" xml:space="preserve">
+    <value>Tonga (+676)</value>
+  </data>
+  <data name="comboLand.Items229" xml:space="preserve">
+    <value>Trinidad (+1868)</value>
+  </data>
+  <data name="comboLand.Items230" xml:space="preserve">
+    <value>Tschad (+235)</value>
+  </data>
+  <data name="comboLand.Items231" xml:space="preserve">
+    <value>Tschechien (+420)</value>
+  </data>
+  <data name="comboLand.Items232" xml:space="preserve">
+    <value>Tunesien (+216)</value>
+  </data>
+  <data name="comboLand.Items233" xml:space="preserve">
+    <value>Türkei (+90)</value>
+  </data>
+  <data name="comboLand.Items234" xml:space="preserve">
+    <value>Turkmenistan (+993)</value>
+  </data>
+  <data name="comboLand.Items235" xml:space="preserve">
+    <value>Tuvalu (+688)</value>
+  </data>
+  <data name="comboLand.Items236" xml:space="preserve">
+    <value>Uganda (+256)</value>
+  </data>
+  <data name="comboLand.Items237" xml:space="preserve">
+    <value>Ukraine (+380)</value>
+  </data>
+  <data name="comboLand.Items238" xml:space="preserve">
+    <value>Ungarn (+36)</value>
+  </data>
+  <data name="comboLand.Items239" xml:space="preserve">
+    <value>Uruguay (+598)</value>
+  </data>
+  <data name="comboLand.Items240" xml:space="preserve">
+    <value>USA (+1)</value>
+  </data>
+  <data name="comboLand.Items241" xml:space="preserve">
+    <value>Usbekistan (+998)</value>
+  </data>
+  <data name="comboLand.Items242" xml:space="preserve">
+    <value>Vanuatu (+678)</value>
+  </data>
+  <data name="comboLand.Items243" xml:space="preserve">
+    <value>Vatikanstaat (+396)</value>
+  </data>
+  <data name="comboLand.Items244" xml:space="preserve">
+    <value>Venezuela (+58)</value>
+  </data>
+  <data name="comboLand.Items245" xml:space="preserve">
+    <value>Ver.Arab.Emirate (+971)</value>
+  </data>
+  <data name="comboLand.Items246" xml:space="preserve">
+    <value>Weißrus. (+375)</value>
+  </data>
+  <data name="comboLand.Items247" xml:space="preserve">
+    <value>Wemsland (+999)</value>
+  </data>
+  <data name="comboLand.Items248" xml:space="preserve">
+    <value>Zaire(Demok.Rep.) (+243)</value>
+  </data>
+  <data name="comboLand.Items249" xml:space="preserve">
+    <value>Zentralafrik.Rep. (+236)</value>
+  </data>
+  <data name="comboLand.Items250" xml:space="preserve">
+    <value>Zimbabwe (+263)</value>
+  </data>
+  <data name="comboLand.Items251" xml:space="preserve">
+    <value>Zypern (+357)</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboLand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 39</value>
+  </data>
+  <data name="comboLand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="comboLand.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboLand.Name" xml:space="preserve">
+    <value>comboLand</value>
+  </data>
+  <data name="&gt;&gt;comboLand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboLand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboLand.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboVorwahl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 82</value>
+  </data>
+  <data name="comboVorwahl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
+  <data name="comboVorwahl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboVorwahl.Name" xml:space="preserve">
+    <value>comboVorwahl</value>
+  </data>
+  <data name="&gt;&gt;comboVorwahl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboVorwahl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboVorwahl.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 66</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Vorwahl / Nummer:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="telnr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="telnr.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="telnr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 110</value>
+  </data>
+  <data name="telnr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="telnr.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;telnr.Name" xml:space="preserve">
+    <value>telnr</value>
+  </data>
+  <data name="&gt;&gt;telnr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;telnr.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;telnr.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="richTextSms.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 126</value>
+  </data>
+  <data name="richTextSms.MaxLength" type="System.Int32, mscorlib">
+    <value>1600</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="richTextSms.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="richTextSms.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 91</value>
+  </data>
+  <data name="richTextSms.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="richTextSms.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;richTextSms.Name" xml:space="preserve">
+    <value>richTextSms</value>
+  </data>
+  <data name="&gt;&gt;richTextSms.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextSms.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;richTextSms.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 272</value>
+  </data>
+  <data name="btnNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="btnNew.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnNew.Text" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Name" xml:space="preserve">
+    <value>btnNew</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNew.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNew.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnSend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 273</value>
+  </data>
+  <data name="btnSend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="btnSend.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnSend.Text" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="&gt;&gt;btnSend.Name" xml:space="preserve">
+    <value>btnSend</value>
+  </data>
+  <data name="&gt;&gt;btnSend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSend.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSend.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnBeenden.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 272</value>
+  </data>
+  <data name="btnBeenden.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 23</value>
+  </data>
+  <data name="btnBeenden.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnBeenden.Text" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="&gt;&gt;btnBeenden.Name" xml:space="preserve">
+    <value>btnBeenden</value>
+  </data>
+  <data name="&gt;&gt;btnBeenden.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBeenden.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBeenden.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="msg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="msg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 241</value>
+  </data>
+  <data name="msg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 29</value>
+  </data>
+  <data name="msg.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;msg.Name" xml:space="preserve">
+    <value>msg</value>
+  </data>
+  <data name="&gt;&gt;msg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;msg.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;msg.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="allgText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="allgText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 9</value>
+  </data>
+  <data name="allgText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 70</value>
+  </data>
+  <data name="allgText.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;allgText.Name" xml:space="preserve">
+    <value>allgText</value>
+  </data>
+  <data name="&gt;&gt;allgText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;allgText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;allgText.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="smskostet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 220</value>
+  </data>
+  <data name="smskostet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 14</value>
+  </data>
+  <data name="smskostet.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;smskostet.Name" xml:space="preserve">
+    <value>smskostet</value>
+  </data>
+  <data name="&gt;&gt;smskostet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;smskostet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;smskostet.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="laenge.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="laenge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 89</value>
+  </data>
+  <data name="laenge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="laenge.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="laenge.Text" xml:space="preserve">
+    <value>0/1600</value>
+  </data>
+  <data name="&gt;&gt;laenge.Name" xml:space="preserve">
+    <value>laenge</value>
+  </data>
+  <data name="&gt;&gt;laenge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;laenge.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;laenge.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="combonummer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 83</value>
+  </data>
+  <data name="combonummer.MaxLength" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="combonummer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="combonummer.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;combonummer.Name" xml:space="preserve">
+    <value>combonummer</value>
+  </data>
+  <data name="&gt;&gt;combonummer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;combonummer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;combonummer.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 110</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Text an:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 64</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 110</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 40</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Land:</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 40</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelSmsAnzahl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSmsAnzahl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 107</value>
+  </data>
+  <data name="labelSmsAnzahl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="labelSmsAnzahl.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;labelSmsAnzahl.Name" xml:space="preserve">
+    <value>labelSmsAnzahl</value>
+  </data>
+  <data name="&gt;&gt;labelSmsAnzahl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSmsAnzahl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSmsAnzahl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>328, 325</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>dlgSmsService</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>kioskplus.Windows.dlgBase, i-client, Version=5.5.5.482, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
