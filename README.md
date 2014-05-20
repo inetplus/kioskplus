@@ -1,13 +1,15 @@
 kioskplus
 =========
 
-the best kiosk system is available as open source - www.inetplus.de
+the best kiosk software is available as open source from now - www.inetplus.de
 
 
-pre-requirements:
+System Requirements:
 - .NET 4.0
+- dll's listen in folder dependencies
+  Soon we also publish them as open source
 
 
-
-installation
-.... coming soon
+Installation
+- open the project file with any C# Development Software
+- compile it done!
