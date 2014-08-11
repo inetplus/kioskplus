@@ -300,7 +300,7 @@ namespace kioskplus.Windows
                 return;
             }
 
-            // Internet verbindung überprüfen!!?
+            // Internet verbindung Ã¼berprÃ¼fen!!?
 
             if (idcAbbuchenMinuten <= 0)
             {
@@ -309,7 +309,7 @@ namespace kioskplus.Windows
                 return;
             }
 
-            // Aktuellen Restminuten prüfen, ob diese ausreichen zum Starten
+            // Aktuellen Restminuten prÃ¼fen, ob diese ausreichen zum Starten
             try{
                 liAktMinuten = Int32.Parse(Program.gnvSplash.DialogNewUser.GetRestMinutenAsString());
             }catch
@@ -587,14 +587,7 @@ namespace kioskplus.Windows
             isSipServer2 = local.GetParameterValue("7");
             isSipUser = local.GetParameterValue("8");
             isSipPwd = local.GetParameterValue("9");
-
-            /***TEST*
-                isSipServer1 = "sip.siptraffic.com";
-                isSipServer2 = "siptraffic.com";
-                isSipUser = "inetplus1";
-                isSipPwd = "sipnetplus";
-             **/
-
+            
             try
             {
                 iPortVon = Int32.Parse(local.GetParameterValue("10"));
@@ -1128,7 +1121,6 @@ namespace kioskplus.Windows
                 {
                     linkLabel1.Tag = "0";
                     panelEinstellung.Visible = false;
-                    //this.Width -= (this.comboInput.Width + 10);
                 }
             }
             catch 
@@ -1206,7 +1198,7 @@ namespace kioskplus.Windows
                             case 20: // Anruf beenden
                                 CancelCall();
                                 break;
-                            case 10: // einzelne löschen
+                            case 10: // einzelne lÃ¶schen
                                 if (myIPControl.TextToMitte.Length > 0)
                                     myIPControl.TextToMitte =  myIPControl.TextToMitte.Substring(0, myIPControl.TextToMitte.Length - 1);
                                 break;
